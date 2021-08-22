@@ -30,6 +30,7 @@ h2 {
 }
 p {
     font-size: 1.5em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     line-height: 1.4em;
     color: #333;
 }
@@ -47,4 +48,5 @@ ul.posts {
 
 ul.posts li {
     list-style: square;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
