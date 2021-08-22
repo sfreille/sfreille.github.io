@@ -63,4 +63,5 @@ ul.posts {
 ul.posts li {
     list-style: square;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    ont-size: 1em;
 }
