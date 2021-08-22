@@ -42,14 +42,14 @@ footer {
 ul { 
     list-style: square;
     margin: 20px auto 40px; 
-    font-size: 1em;
+    font-size: 1.25em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
 ul.li { 
     list-style: square;
     margin: 20px auto 40px; 
-    font-size: 1em;
+    font-size: 1.25em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
