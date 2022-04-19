@@ -57,4 +57,4 @@ permalink: none
 #   - vendor/gems/
 #   - vendor/ruby/
 
-exclude: [vendor]
+exclude: vendor
