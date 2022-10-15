@@ -43,13 +43,13 @@ footer {
 }
 ul { 
     list-style: square;
-    margin: 20px auto 40px; 
+    margin: 10px auto 20px; 
     font-size: 1.25em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 ul.li { 
     list-style: square;
-    margin: 20px auto 40px; 
+    margin: 10px auto 20px; 
     font-size: 1.25em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
