@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <meta name="description" content="{{ page.title }} - {{ page.institution }}">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/research">Research</a></li>
+            <li><a href="/teaching">Courses</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/cv">CV</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <div class="blurb">
+            {% if page.archive_years %}
+            <nav class="course-nav">
+                <ul>
+                    <li><a href="/teaching/{{ page.course_id }}">Actual ({{ page.year }})</a></li>
+                    {% for year in page.archive_years %}
+                    <li><a href="/teaching/{{ page.course_id }}-{{ year }}">{{ year }}</a></li>
+                    {% endfor %}
+                </ul>
+            </nav>
+            {% endif %}
+            
+            {{ content }}
+        </div>
+    </div>
+    
+    <footer>
+        <ul>
+            <li><a href="mailto:{{ site.email }}">email</a></li>
+            <li><a href="https://github.com/{{ site.github_username }}">github.com/{{ site.github_username }}</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

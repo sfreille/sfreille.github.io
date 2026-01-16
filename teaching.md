@@ -11,11 +11,12 @@ Below is a list of my past and current courses
 ## Undergraduate
 
 - [Finanzas Públicas](/teaching/fpub), Universidad Nacional de Córdoba (current)
-- [Economía Política Internacional](/teaching/epin), Universidad Católica de Córdoba (current)
-- [Tópicos en Economía Aplicada](/teaching/teaa), Universidad Nacional de Córdoba (current)
 - [Economía Política](/teaching/epol), Universidad Nacional de Córdoba (current)
-- [Comercio y Finanzas Internacionales](/teaching/cyfi), Universidad Católica de Córdoba (current)
 - [Historia del Pensamiento y del Análisis Económico](/teaching/hpae), Universidad Nacional de Córdoba (current)
+- [Tópicos en Economía Aplicada](/teaching/teaa), Universidad Nacional de Córdoba
+- [Comercio y Finanzas Internacionales](/teaching/cyfi), Universidad Católica de Córdoba (current)
+- [Economía Política Internacional](/teaching/epin), Universidad Católica de Córdoba (current)
+- [Taller III: Gestión Presupuestaria](/teaching/gpre), Universidad Católica de Córdoba (current)
 
 ## Postgraduate
 
