@@ -6,7 +6,6 @@ permalink: /research
 
 <div class="post-header">
 <h1 class="post-title">Research</h1>
-<p class="desc">Publications, working papers, and conference presentations</p>
 </div>
 
 ## Publications

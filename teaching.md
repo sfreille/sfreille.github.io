@@ -6,7 +6,6 @@ permalink: /teaching
 
 <div class="post-header">
 <h1 class="post-title">Teaching</h1>
-<p class="desc">Current and past courses at various universities</p>
 </div>
 
 ## Undergraduate Courses

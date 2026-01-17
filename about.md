@@ -6,7 +6,6 @@ permalink: /about
 
 <div class="post-header">
 <h1 class="post-title">About</h1>
-<p class="desc">Personal interests, hobbies, and random musings</p>
 </div>
 
 ## Background
