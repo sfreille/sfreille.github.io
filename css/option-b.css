@@ -1,0 +1,551 @@
+/* ==========================================================================
+   Option B: Modern Professional (al-folio inspired)
+   Light/Dark mode support
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   CSS Variables - Light Mode (Default)
+   -------------------------------------------------------------------------- */
+:root {
+    /* Light mode colors */
+    --color-bg: #ffffff;
+    --color-bg-secondary: #f8f9fa;
+    --color-text: #212529;
+    --color-text-secondary: #6c757d;
+    --color-accent: #2698BA;
+    --color-accent-hover: #1a7a94;
+    --color-border: #dee2e6;
+    --color-card-shadow: rgba(0, 0, 0, 0.08);
+    --color-nav-bg: #ffffff;
+    --color-footer-bg: #f8f9fa;
+    
+    /* Typography */
+    --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-heading: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-mono: 'JetBrains Mono', 'SF Mono', 'Consolas', monospace;
+    
+    /* Layout */
+    --max-width: 920px;
+    --border-radius: 8px;
+    --transition-speed: 0.25s;
+}
+
+/* --------------------------------------------------------------------------
+   Dark Mode
+   -------------------------------------------------------------------------- */
+[data-theme="dark"] {
+    --color-bg: #1a1a2e;
+    --color-bg-secondary: #16213e;
+    --color-text: #e8e8e8;
+    --color-text-secondary: #a0a0a0;
+    --color-accent: #4fc3f7;
+    --color-accent-hover: #81d4fa;
+    --color-border: #2d2d44;
+    --color-card-shadow: rgba(0, 0, 0, 0.3);
+    --color-nav-bg: #16213e;
+    --color-footer-bg: #16213e;
+}
+
+/* --------------------------------------------------------------------------
+   Base Styles
+   -------------------------------------------------------------------------- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-main);
+    font-size: 1rem;
+    line-height: 1.75;
+    color: var(--color-text);
+    background-color: var(--color-bg);
+    transition: background-color var(--transition-speed), color var(--transition-speed);
+}
+
+/* --------------------------------------------------------------------------
+   Layout Container
+   -------------------------------------------------------------------------- */
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem;
+}
+
+.blurb {
+    padding: 0;
+}
+
+/* --------------------------------------------------------------------------
+   Navigation
+   -------------------------------------------------------------------------- */
+nav {
+    background-color: var(--color-nav-bg);
+    border-bottom: 1px solid var(--color-border);
+    padding: 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    transition: background-color var(--transition-speed), border-color var(--transition-speed);
+}
+
+nav ul {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li::before {
+    content: none;
+}
+
+nav ul li a {
+    display: block;
+    font-family: var(--font-main);
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    padding: 1rem 1.25rem;
+    border-bottom: 3px solid transparent;
+    transition: all var(--transition-speed);
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    color: var(--color-accent);
+    background-color: var(--color-bg-secondary);
+    text-decoration: none;
+}
+
+nav ul li a.active {
+    color: var(--color-accent);
+    border-bottom-color: var(--color-accent);
+}
+
+/* --------------------------------------------------------------------------
+   Typography
+   -------------------------------------------------------------------------- */
+h1 {
+    font-family: var(--font-heading);
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: var(--color-text);
+    margin: 0 0 1.5rem 0;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+}
+
+h2 {
+    font-family: var(--font-heading);
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--color-text);
+    margin: 2.5rem 0 1rem 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--color-accent);
+    display: inline-block;
+}
+
+/* Make h2 full width but border only under text */
+h2::after {
+    content: "";
+    display: block;
+}
+
+h3 {
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--color-text);
+    margin: 1.5rem 0 0.75rem 0;
+}
+
+p {
+    font-family: var(--font-main);
+    font-size: 1rem;
+    color: var(--color-text);
+    margin: 0 0 1rem 0;
+    line-height: 1.75;
+}
+
+/* --------------------------------------------------------------------------
+   Links
+   -------------------------------------------------------------------------- */
+a {
+    color: var(--color-accent);
+    text-decoration: none;
+    transition: color var(--transition-speed);
+}
+
+a:hover,
+a:focus {
+    color: var(--color-accent-hover);
+    text-decoration: underline;
+}
+
+/* --------------------------------------------------------------------------
+   Lists
+   -------------------------------------------------------------------------- */
+ul, ol {
+    font-family: var(--font-main);
+    font-size: 1rem;
+    color: var(--color-text);
+    margin: 0 0 1.5rem 0;
+    padding-left: 0;
+    line-height: 1.75;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    position: relative;
+    padding: 0.5rem 0 0.5rem 1.5rem;
+    margin-bottom: 0.25rem;
+    border-left: 2px solid var(--color-border);
+    transition: border-color var(--transition-speed);
+}
+
+ul li:hover {
+    border-left-color: var(--color-accent);
+}
+
+ul li::before {
+    content: none;
+}
+
+/* Nested lists */
+ul ul {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    margin-left: 1rem;
+}
+
+/* Remove special styling from nav and footer lists */
+nav ul li,
+footer ul li {
+    padding: 0;
+    border-left: none;
+}
+
+nav ul li:hover,
+footer ul li:hover {
+    border-left: none;
+}
+
+/* --------------------------------------------------------------------------
+   Cards (for publications, etc.)
+   -------------------------------------------------------------------------- */
+.card {
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 8px var(--color-card-shadow);
+    transition: all var(--transition-speed);
+}
+
+.card:hover {
+    box-shadow: 0 4px 16px var(--color-card-shadow);
+    border-color: var(--color-accent);
+}
+
+/* --------------------------------------------------------------------------
+   Tables
+   -------------------------------------------------------------------------- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-size: 0.95rem;
+    background-color: var(--color-bg);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: 0 1px 4px var(--color-card-shadow);
+}
+
+th, td {
+    text-align: left;
+    padding: 0.875rem 1rem;
+    border-bottom: 1px solid var(--color-border);
+}
+
+th {
+    font-weight: 600;
+    color: var(--color-text);
+    background-color: var(--color-bg-secondary);
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:hover td {
+    background-color: var(--color-bg-secondary);
+}
+
+/* --------------------------------------------------------------------------
+   Horizontal Rules
+   -------------------------------------------------------------------------- */
+hr {
+    border: none;
+    border-top: 1px solid var(--color-border);
+    margin: 2.5rem 0;
+}
+
+/* --------------------------------------------------------------------------
+   Footer
+   -------------------------------------------------------------------------- */
+footer {
+    background-color: var(--color-footer-bg);
+    border-top: 1px solid var(--color-border);
+    margin-top: 3rem;
+    padding: 1.5rem 0;
+    transition: background-color var(--transition-speed), border-color var(--transition-speed);
+}
+
+footer ul {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem 1.5rem;
+}
+
+footer ul li {
+    margin: 0;
+    padding: 0;
+    border-left: none;
+}
+
+footer ul li a {
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+    padding: 0.5rem;
+    border-radius: 4px;
+    transition: all var(--transition-speed);
+}
+
+footer ul li a:hover {
+    color: var(--color-accent);
+    background-color: var(--color-bg);
+    text-decoration: none;
+}
+
+/* --------------------------------------------------------------------------
+   Course Navigation
+   -------------------------------------------------------------------------- */
+.course-nav {
+    margin-bottom: 2rem;
+}
+
+.course-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.course-nav ul li {
+    padding: 0;
+    margin: 0;
+    border-left: none;
+}
+
+.course-nav ul li a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: var(--color-bg-secondary);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+    transition: all var(--transition-speed);
+}
+
+.course-nav ul li a:hover {
+    background-color: var(--color-accent);
+    border-color: var(--color-accent);
+    color: white;
+    text-decoration: none;
+}
+
+/* --------------------------------------------------------------------------
+   Blockquotes
+   -------------------------------------------------------------------------- */
+blockquote {
+    margin: 1.5rem 0;
+    padding: 1.25rem 1.5rem;
+    border-left: 4px solid var(--color-accent);
+    background-color: var(--color-bg-secondary);
+    border-radius: 0 var(--border-radius) var(--border-radius) 0;
+    color: var(--color-text-secondary);
+    font-style: italic;
+}
+
+/* --------------------------------------------------------------------------
+   Code
+   -------------------------------------------------------------------------- */
+code {
+    font-family: var(--font-mono);
+    font-size: 0.875em;
+    background-color: var(--color-bg-secondary);
+    padding: 0.2em 0.5em;
+    border-radius: 4px;
+    border: 1px solid var(--color-border);
+}
+
+pre {
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    padding: 1.25rem;
+    border-radius: var(--border-radius);
+    overflow-x: auto;
+    font-size: 0.875rem;
+}
+
+pre code {
+    background: none;
+    padding: 0;
+    border: none;
+}
+
+/* --------------------------------------------------------------------------
+   Strong and Emphasis
+   -------------------------------------------------------------------------- */
+strong {
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+em {
+    font-style: italic;
+}
+
+/* --------------------------------------------------------------------------
+   Theme Toggle Button (for comparison page)
+   -------------------------------------------------------------------------- */
+.theme-toggle {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: var(--color-accent);
+    color: white;
+    border: none;
+    padding: 0.75rem 1rem;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    font-family: var(--font-main);
+    font-size: 0.875rem;
+    font-weight: 500;
+    box-shadow: 0 4px 12px var(--color-card-shadow);
+    transition: all var(--transition-speed);
+    z-index: 1000;
+}
+
+.theme-toggle:hover {
+    background-color: var(--color-accent-hover);
+    transform: translateY(-2px);
+}
+
+/* --------------------------------------------------------------------------
+   Responsive Design
+   -------------------------------------------------------------------------- */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 0.95rem;
+    }
+    
+    h1 {
+        font-size: 1.875rem;
+    }
+    
+    h2 {
+        font-size: 1.25rem;
+    }
+    
+    nav ul {
+        justify-content: center;
+    }
+    
+    nav ul li a {
+        padding: 0.875rem 0.875rem;
+        font-size: 0.85rem;
+    }
+    
+    .container {
+        padding: 1.5rem 1rem;
+    }
+    
+    table {
+        font-size: 0.85rem;
+    }
+    
+    th, td {
+        padding: 0.625rem 0.75rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.625rem;
+    }
+    
+    nav ul li a {
+        padding: 0.75rem 0.625rem;
+    }
+    
+    .theme-toggle {
+        bottom: 1rem;
+        right: 1rem;
+        padding: 0.625rem 0.875rem;
+    }
+}
+
+/* --------------------------------------------------------------------------
+   Print Styles
+   -------------------------------------------------------------------------- */
+@media print {
+    nav, footer, .theme-toggle {
+        display: none;
+    }
+    
+    body {
+        background: white;
+        color: black;
+    }
+    
+    a {
+        color: black;
+        text-decoration: underline;
+    }
+    
+    .card {
+        box-shadow: none;
+        border: 1px solid #ccc;
+    }
+}

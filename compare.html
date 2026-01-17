@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Comparison | Sebastián Freille</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Default: Option C -->
+    <link id="theme-stylesheet" rel="stylesheet" type="text/css" href="/css/main.css">
+    
+    <style>
+        /* Comparison Controls */
+        .compare-controls {
+            position: fixed;
+            top: 80px;
+            right: 20px;
+            background: #ffffff;
+            border: 1px solid #dee2e6;
+            border-radius: 12px;
+            padding: 1.25rem;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            z-index: 1000;
+            min-width: 220px;
+            font-family: 'Inter', -apple-system, sans-serif;
+        }
+        
+        [data-theme="dark"] .compare-controls {
+            background: #1a1a2e;
+            border-color: #2d2d44;
+        }
+        
+        .compare-controls h3 {
+            margin: 0 0 1rem 0;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: #212529;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            border: none;
+            padding: 0;
+        }
+        
+        [data-theme="dark"] .compare-controls h3 {
+            color: #e8e8e8;
+        }
+        
+        .control-group {
+            margin-bottom: 1rem;
+        }
+        
+        .control-group:last-child {
+            margin-bottom: 0;
+        }
+        
+        .control-label {
+            display: block;
+            font-size: 0.75rem;
+            font-weight: 500;
+            color: #6c757d;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+        }
+        
+        .btn-group {
+            display: flex;
+            gap: 0.5rem;
+        }
+        
+        .btn {
+            flex: 1;
+            padding: 0.5rem 0.75rem;
+            border: 1px solid #dee2e6;
+            background: #f8f9fa;
+            color: #495057;
+            font-size: 0.8rem;
+            font-weight: 500;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-family: inherit;
+        }
+        
+        .btn:hover {
+            background: #e9ecef;
+            border-color: #adb5bd;
+        }
+        
+        .btn.active {
+            background: #2698BA;
+            border-color: #2698BA;
+            color: white;
+        }
+        
+        .btn-c.active {
+            background: #c0392b;
+            border-color: #c0392b;
+        }
+        
+        [data-theme="dark"] .btn {
+            background: #16213e;
+            border-color: #2d2d44;
+            color: #a0a0a0;
+        }
+        
+        [data-theme="dark"] .btn:hover {
+            background: #1a1a2e;
+            border-color: #4fc3f7;
+        }
+        
+        [data-theme="dark"] .btn.active {
+            background: #4fc3f7;
+            border-color: #4fc3f7;
+            color: #1a1a2e;
+        }
+        
+        .dark-toggle {
+            display: none;
+        }
+        
+        .dark-toggle.visible {
+            display: flex;
+        }
+        
+        /* Sample content indicator */
+        .current-theme-badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            background: #e9ecef;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: #495057;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 1rem;
+        }
+        
+        [data-theme="dark"] .current-theme-badge {
+            background: #2d2d44;
+            color: #a0a0a0;
+        }
+        
+        /* Hide controls on mobile */
+        @media (max-width: 768px) {
+            .compare-controls {
+                position: static;
+                margin: 1rem;
+                width: calc(100% - 2rem);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Comparison Controls -->
+    <div class="compare-controls">
+        <h3>Design Comparison</h3>
+        
+        <div class="control-group">
+            <span class="control-label">Style</span>
+            <div class="btn-group">
+                <button class="btn btn-b" onclick="setTheme('b')">Option B</button>
+                <button class="btn btn-c active" onclick="setTheme('c')">Option C</button>
+            </div>
+        </div>
+        
+        <div class="control-group dark-toggle" id="darkToggle">
+            <span class="control-label">Mode (Option B only)</span>
+            <div class="btn-group">
+                <button class="btn btn-light active" onclick="setMode('light')">Light</button>
+                <button class="btn btn-dark" onclick="setMode('dark')">Dark</button>
+            </div>
+        </div>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/research">Research</a></li>
+            <li><a href="/teaching">Courses</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/cv">CV</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <div class="blurb">
+            <span class="current-theme-badge" id="themeBadge">Option C: Warm Academic</span>
+            
+            <h1>Sebastián Freille</h1>
+            
+            <p>I am an academic economist. I teach and do research in public economics and political economy. I am based at the Universidad Nacional de Córdoba (UNC). My interests are in sub-national elections, political economy of redistribution, special interests groups, lobbying and corruption. I am and will always be a <a href="https://es.wikipedia.org/wiki/Diego_Maradona">Maradonian</a>.</p>
+
+            <hr>
+
+            <h2>Research Interests</h2>
+            
+            <ul>
+                <li>Public Economics and Public Finance</li>
+                <li>Political Economy</li>
+                <li>Sub-national Elections and Electoral Politics</li>
+                <li>Political Economy of Redistribution</li>
+                <li>Special Interest Groups, Lobbying and Influence</li>
+                <li>Corruption and Institutional Quality</li>
+            </ul>
+
+            <hr>
+
+            <h2>Selected Publications</h2>
+            
+            <ul>
+                <li>Freille, S.; Mazzalay, V. (2018). "Determinants of party and mayor reelection in local governments: An empirical examination for Argentina during 1983-2011", <em>Revista de Economía y Estadística</em>, 56(1), pp. 59-87.</li>
+                <li>Freille, S.; Soffietti, P. (2017). "Campaign finance and national elections: An empirical investigation for Argentina 2005-2013", <em>Revista de Economía y Estadística</em>, 55(1), pp. 111-139.</li>
+                <li>Moncarz, P.; Freille, S.; Figueras, A.; Grion, N. (2017). "Do intergovernmental transfers affect the distribution of manufacturing production across regions in federal countries? Theory and evidence for Argentina", <em>Regional and Federal Studies</em>, 27(4), pp. 359-392.</li>
+                <li>Freille, S.; Haque, M.E.; Kneller, R. (2007). "A Contribution to the Empirics of Press Freedom and Corruption", <em>European Journal of Political Economy</em>, 23(4), pp. 838-862.</li>
+            </ul>
+
+            <hr>
+
+            <h2>Sample Table (Course Slides)</h2>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Topic</th>
+                        <th>Slides</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Introduction to Political Economy</td>
+                        <td><a href="#">HTML</a> <a href="#">PDF</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Social Choice Theory</td>
+                        <td><a href="#">HTML</a> <a href="#">PDF</a></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Electoral Competition Models</td>
+                        <td><a href="#">HTML</a> <a href="#">PDF</a></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Interest Groups and Lobbying</td>
+                        <td><a href="#">HTML</a> <a href="#">PDF</a></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <hr>
+
+            <h2>Education</h2>
+            
+            <ul>
+                <li><strong>Postdoctoral Research</strong>, CONICET, Argentina (2009-2011). Project: "Decentralization, Corruption and Economic Development"</li>
+                <li><strong>PhD in Economics</strong>, University of Nottingham, UK (2003-2007). Thesis: "Essays on Corruption and Economic Development"</li>
+                <li><strong>BA in Economics</strong> (Licenciado en Economía), Universidad Nacional de Córdoba, Argentina (1995-2002)</li>
+            </ul>
+
+            <hr>
+
+            <blockquote>
+                This is a sample blockquote to show how emphasized text and quotes appear in each design option.
+            </blockquote>
+
+        </div>
+    </div>
+    
+    <footer>
+        <ul>
+            <li><a href="mailto:sebastian.freille@gmail.com">Email</a></li>
+            <li><a href="https://github.com/sfreille">GitHub</a></li>
+            <li><a href="#">Google Scholar</a></li>
+            <li><a href="#">ORCID</a></li>
+        </ul>
+    </footer>
+
+    <script>
+        let currentTheme = 'c';
+        let currentMode = 'light';
+        
+        function setTheme(theme) {
+            currentTheme = theme;
+            const stylesheet = document.getElementById('theme-stylesheet');
+            const badge = document.getElementById('themeBadge');
+            const darkToggle = document.getElementById('darkToggle');
+            
+            // Update buttons
+            document.querySelectorAll('.btn-b, .btn-c').forEach(btn => btn.classList.remove('active'));
+            document.querySelector('.btn-' + theme).classList.add('active');
+            
+            if (theme === 'b') {
+                stylesheet.href = '/css/option-b.css';
+                badge.textContent = 'Option B: Modern Professional' + (currentMode === 'dark' ? ' (Dark)' : ' (Light)');
+                darkToggle.classList.add('visible');
+                // Apply current mode
+                if (currentMode === 'dark') {
+                    document.documentElement.setAttribute('data-theme', 'dark');
+                } else {
+                    document.documentElement.removeAttribute('data-theme');
+                }
+            } else {
+                stylesheet.href = '/css/main.css';
+                badge.textContent = 'Option C: Warm Academic';
+                darkToggle.classList.remove('visible');
+                document.documentElement.removeAttribute('data-theme');
+            }
+        }
+        
+        function setMode(mode) {
+            currentMode = mode;
+            const badge = document.getElementById('themeBadge');
+            
+            // Update buttons
+            document.querySelectorAll('.btn-light, .btn-dark').forEach(btn => btn.classList.remove('active'));
+            document.querySelector('.btn-' + mode).classList.add('active');
+            
+            if (mode === 'dark') {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                badge.textContent = 'Option B: Modern Professional (Dark)';
+            } else {
+                document.documentElement.removeAttribute('data-theme');
+                badge.textContent = 'Option B: Modern Professional (Light)';
+            }
+        }
+    </script>
+</body>
+</html>
