@@ -25,18 +25,18 @@
             padding: 1.25rem;
             box-shadow: 0 4px 20px rgba(0,0,0,0.15);
             z-index: 1000;
-            min-width: 220px;
+            min-width: 260px;
             font-family: 'Inter', -apple-system, sans-serif;
         }
         
         [data-theme="dark"] .compare-controls {
-            background: #1a1a2e;
-            border-color: #2d2d44;
+            background: #1c1c1d;
+            border-color: #424246;
         }
         
         .compare-controls h3 {
             margin: 0 0 1rem 0;
-            font-size: 0.9rem;
+            font-size: 0.85rem;
             font-weight: 600;
             color: #212529;
             text-transform: uppercase;
@@ -59,7 +59,7 @@
         
         .control-label {
             display: block;
-            font-size: 0.75rem;
+            font-size: 0.7rem;
             font-weight: 500;
             color: #6c757d;
             margin-bottom: 0.5rem;
@@ -67,23 +67,34 @@
             letter-spacing: 0.03em;
         }
         
+        [data-theme="dark"] .control-label {
+            color: #a0a0a0;
+        }
+        
         .btn-group {
             display: flex;
-            gap: 0.5rem;
+            gap: 0.4rem;
+            flex-wrap: wrap;
+        }
+        
+        .btn-group-vertical {
+            flex-direction: column;
         }
         
         .btn {
             flex: 1;
-            padding: 0.5rem 0.75rem;
+            padding: 0.5rem 0.6rem;
             border: 1px solid #dee2e6;
             background: #f8f9fa;
             color: #495057;
-            font-size: 0.8rem;
+            font-size: 0.75rem;
             font-weight: 500;
             border-radius: 6px;
             cursor: pointer;
             transition: all 0.2s ease;
             font-family: inherit;
+            text-align: center;
+            min-width: 70px;
         }
         
         .btn:hover {
@@ -91,32 +102,42 @@
             border-color: #adb5bd;
         }
         
-        .btn.active {
-            background: #2698BA;
-            border-color: #2698BA;
+        /* al-folio style (cyan/purple) */
+        .btn.active-alfolio {
+            background: #2698ba;
+            border-color: #2698ba;
             color: white;
         }
         
-        .btn-c.active {
+        /* Warm Academic style (burgundy) */
+        .btn.active-warm {
             background: #c0392b;
             border-color: #c0392b;
+            color: white;
+        }
+        
+        /* Pascal Michaillat style (slate blue) */
+        .btn.active-pm {
+            background: #6a7ba2;
+            border-color: #6a7ba2;
+            color: white;
         }
         
         [data-theme="dark"] .btn {
-            background: #16213e;
-            border-color: #2d2d44;
+            background: #212529;
+            border-color: #424246;
             color: #a0a0a0;
         }
         
         [data-theme="dark"] .btn:hover {
-            background: #1a1a2e;
+            background: #2c2c2c;
             border-color: #4fc3f7;
         }
         
-        [data-theme="dark"] .btn.active {
-            background: #4fc3f7;
-            border-color: #4fc3f7;
-            color: #1a1a2e;
+        [data-theme="dark"] .btn.active-alfolio {
+            background: #2698ba;
+            border-color: #2698ba;
+            color: white;
         }
         
         .dark-toggle {
@@ -124,7 +145,22 @@
         }
         
         .dark-toggle.visible {
-            display: flex;
+            display: block;
+        }
+        
+        /* Theme description */
+        .theme-desc {
+            font-size: 0.7rem;
+            color: #6c757d;
+            margin-top: 0.75rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid #dee2e6;
+            line-height: 1.5;
+        }
+        
+        [data-theme="dark"] .theme-desc {
+            color: #a0a0a0;
+            border-color: #424246;
         }
         
         /* Sample content indicator */
@@ -142,16 +178,17 @@
         }
         
         [data-theme="dark"] .current-theme-badge {
-            background: #2d2d44;
+            background: #2c2c2c;
             color: #a0a0a0;
         }
         
-        /* Hide controls on mobile */
-        @media (max-width: 768px) {
+        /* Hide controls on mobile - make them inline */
+        @media (max-width: 900px) {
             .compare-controls {
                 position: static;
-                margin: 1rem;
+                margin: 1rem auto;
                 width: calc(100% - 2rem);
+                max-width: 400px;
             }
         }
     </style>
@@ -162,19 +199,24 @@
         <h3>Design Comparison</h3>
         
         <div class="control-group">
-            <span class="control-label">Style</span>
-            <div class="btn-group">
-                <button class="btn btn-b" onclick="setTheme('b')">Option B</button>
-                <button class="btn btn-c active" onclick="setTheme('c')">Option C</button>
+            <span class="control-label">Choose Style</span>
+            <div class="btn-group btn-group-vertical">
+                <button class="btn btn-alfolio" onclick="setTheme('alfolio')">al-folio (Option B)</button>
+                <button class="btn btn-warm active-warm" onclick="setTheme('warm')">Warm Academic (Option C)</button>
+                <button class="btn btn-pm" onclick="setTheme('pm')">Pascal Michaillat</button>
             </div>
         </div>
         
         <div class="control-group dark-toggle" id="darkToggle">
-            <span class="control-label">Mode (Option B only)</span>
+            <span class="control-label">Light / Dark Mode</span>
             <div class="btn-group">
-                <button class="btn btn-light active" onclick="setMode('light')">Light</button>
+                <button class="btn btn-light active-alfolio" onclick="setMode('light')">Light</button>
                 <button class="btn btn-dark" onclick="setMode('dark')">Dark</button>
             </div>
+        </div>
+        
+        <div class="theme-desc" id="themeDesc">
+            <strong>Warm Academic:</strong> Burgundy accent, Source Sans Pro font, clean list styling with dash bullets.
         </div>
     </div>
 
@@ -285,51 +327,96 @@
     </footer>
 
     <script>
-        let currentTheme = 'c';
+        let currentTheme = 'warm';
         let currentMode = 'light';
+        
+        const themeInfo = {
+            'alfolio': {
+                css: '/css/option-b.css',
+                name: 'al-folio (Option B)',
+                desc: '<strong>al-folio:</strong> Purple/cyan accent colors, dark footer, underlined links, Roboto font family. Supports light/dark mode toggle.',
+                hasMode: true
+            },
+            'warm': {
+                css: '/css/main.css',
+                name: 'Warm Academic (Option C)',
+                desc: '<strong>Warm Academic:</strong> Burgundy accent, Source Sans Pro font, clean list styling with dash bullets.',
+                hasMode: false
+            },
+            'pm': {
+                css: '/css/option-pm.css',
+                name: 'Pascal Michaillat',
+                desc: '<strong>Pascal Michaillat:</strong> Minimalist slate blue accent, Source Sans Pro font, lots of whitespace, very clean and readable.',
+                hasMode: false
+            }
+        };
         
         function setTheme(theme) {
             currentTheme = theme;
             const stylesheet = document.getElementById('theme-stylesheet');
             const badge = document.getElementById('themeBadge');
             const darkToggle = document.getElementById('darkToggle');
+            const themeDesc = document.getElementById('themeDesc');
+            const info = themeInfo[theme];
             
-            // Update buttons
-            document.querySelectorAll('.btn-b, .btn-c').forEach(btn => btn.classList.remove('active'));
-            document.querySelector('.btn-' + theme).classList.add('active');
+            // Reset mode when switching themes
+            currentMode = 'light';
+            document.documentElement.removeAttribute('data-theme');
             
-            if (theme === 'b') {
-                stylesheet.href = '/css/option-b.css';
-                badge.textContent = 'Option B: Modern Professional' + (currentMode === 'dark' ? ' (Dark)' : ' (Light)');
+            // Update buttons - remove all active classes
+            document.querySelectorAll('.btn-alfolio, .btn-warm, .btn-pm').forEach(btn => {
+                btn.classList.remove('active-alfolio', 'active-warm', 'active-pm');
+            });
+            
+            // Add appropriate active class
+            const activeBtn = document.querySelector('.btn-' + theme);
+            if (theme === 'alfolio') {
+                activeBtn.classList.add('active-alfolio');
+            } else if (theme === 'warm') {
+                activeBtn.classList.add('active-warm');
+            } else if (theme === 'pm') {
+                activeBtn.classList.add('active-pm');
+            }
+            
+            // Update stylesheet
+            stylesheet.href = info.css;
+            
+            // Update badge
+            badge.textContent = info.name;
+            
+            // Update description
+            themeDesc.innerHTML = info.desc;
+            
+            // Show/hide dark mode toggle
+            if (info.hasMode) {
                 darkToggle.classList.add('visible');
-                // Apply current mode
-                if (currentMode === 'dark') {
-                    document.documentElement.setAttribute('data-theme', 'dark');
-                } else {
-                    document.documentElement.removeAttribute('data-theme');
-                }
+                // Reset mode buttons
+                document.querySelectorAll('.btn-light, .btn-dark').forEach(btn => {
+                    btn.classList.remove('active-alfolio');
+                });
+                document.querySelector('.btn-light').classList.add('active-alfolio');
             } else {
-                stylesheet.href = '/css/main.css';
-                badge.textContent = 'Option C: Warm Academic';
                 darkToggle.classList.remove('visible');
-                document.documentElement.removeAttribute('data-theme');
             }
         }
         
         function setMode(mode) {
             currentMode = mode;
             const badge = document.getElementById('themeBadge');
+            const info = themeInfo[currentTheme];
             
             // Update buttons
-            document.querySelectorAll('.btn-light, .btn-dark').forEach(btn => btn.classList.remove('active'));
-            document.querySelector('.btn-' + mode).classList.add('active');
+            document.querySelectorAll('.btn-light, .btn-dark').forEach(btn => {
+                btn.classList.remove('active-alfolio');
+            });
+            document.querySelector('.btn-' + mode).classList.add('active-alfolio');
             
             if (mode === 'dark') {
                 document.documentElement.setAttribute('data-theme', 'dark');
-                badge.textContent = 'Option B: Modern Professional (Dark)';
+                badge.textContent = info.name + ' (Dark)';
             } else {
                 document.documentElement.removeAttribute('data-theme');
-                badge.textContent = 'Option B: Modern Professional (Light)';
+                badge.textContent = info.name + ' (Light)';
             }
         }
     </script>
