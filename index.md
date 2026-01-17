@@ -6,13 +6,6 @@ title: Home
 <div class="about-section">
 <div class="profile">
 <img src="/assets/images/profile.jpeg" alt="Sebastián Freille" onerror="this.style.display='none'">
-<div class="name">Sebastián Freille</div>
-<div class="position">Full Professor</div>
-<div class="institution">Universidad Nacional de Córdoba</div>
-<div class="social-icons">
-<a href="mailto:sebastian.freille@gmail.com" title="Email">&#9993;</a>
-<a href="https://github.com/sfreille" title="GitHub" target="_blank">&#128187;</a>
-</div>
 </div>
 
 <div class="bio">
