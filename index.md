@@ -7,7 +7,7 @@ title: Home
 <div class="profile">
 <img src="/assets/images/profile.jpeg" alt="Sebastián Freille" onerror="this.style.display='none'">
 <div class="name">Sebastián Freille</div>
-<div class="position">Associate Professor</div>
+<div class="position">Full Professor</div>
 <div class="institution">Universidad Nacional de Córdoba</div>
 <div class="social-icons">
 <a href="mailto:sebastian.freille@gmail.com" title="Email">&#9993;</a>
