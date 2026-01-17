@@ -6,49 +6,102 @@
     <title>{{ page.title }} | {{ site.title }}</title>
     <meta name="description" content="{{ page.title }} - {{ page.institution }}">
     
-    <!-- Google Fonts - Source Sans Pro -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
     
     <!-- Main Stylesheet -->
     <link rel="stylesheet" type="text/css" href="/css/main.css">
+    
+    <!-- Dark mode initialization -->
+    <script>
+        (function() {
+            const theme = localStorage.getItem('theme') || 
+                (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+            if (theme === 'dark') {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            }
+        })();
+    </script>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/research">Research</a></li>
-            <li><a href="/teaching" class="active">Courses</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/cv">CV</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <a href="/" class="site-title">{{ site.title }}</a>
+            <ul>
+                <li><a href="/about">about</a></li>
+                <li><a href="/research">research</a></li>
+                <li><a href="/teaching" class="active">teaching</a></li>
+                <li><a href="/cv">cv</a></li>
+                <li>
+                    <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode" title="Toggle dark mode">
+                        <span class="theme-icon-light">&#9788;</span>
+                        <span class="theme-icon-dark" style="display:none;">&#9790;</span>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
     
-    <div class="container">
-        <div class="blurb">
-            {% if page.archive_years %}
-            <nav class="course-nav">
-                <ul>
-                    <li><a href="/teaching/{{ page.course_id }}">Current ({{ page.year }})</a></li>
-                    {% for year in page.archive_years %}
-                    <li><a href="/teaching/{{ page.course_id }}-{{ year }}">{{ year }}</a></li>
-                    {% endfor %}
-                </ul>
-            </nav>
-            {% endif %}
-            
-            {{ content }}
-        </div>
-    </div>
+    <main class="container">
+        {% if page.archive_years %}
+        <nav class="course-nav">
+            <ul>
+                <li><a href="/teaching/{{ page.course_id }}" class="active">Current ({{ page.year }})</a></li>
+                {% for year in page.archive_years %}
+                <li><a href="/teaching/{{ page.course_id }}-{{ year }}">{{ year }}</a></li>
+                {% endfor %}
+            </ul>
+        </nav>
+        {% endif %}
+        
+        {{ content }}
+    </main>
     
     <footer>
-        <ul>
-            <li><a href="mailto:{{ site.email }}">Email</a></li>
-            <li><a href="https://github.com/{{ site.github_username }}">GitHub</a></li>
-            <li><a href="https://scholar.google.com/citations?user={{ site.google_scholar_id }}">Google Scholar</a></li>
-            <li><a href="https://orcid.org/{{ site.orcid_id }}">ORCID</a></li>
-        </ul>
+        <div class="footer-content">
+            <ul>
+                <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+                <li><a href="https://github.com/{{ site.github_username }}" target="_blank">GitHub</a></li>
+                {% if site.google_scholar_id and site.google_scholar_id != "YOUR_GOOGLE_SCHOLAR_ID" %}
+                <li><a href="https://scholar.google.com/citations?user={{ site.google_scholar_id }}" target="_blank">Google Scholar</a></li>
+                {% endif %}
+                {% if site.orcid_id and site.orcid_id != "YOUR_ORCID_ID" %}
+                <li><a href="https://orcid.org/{{ site.orcid_id }}" target="_blank">ORCID</a></li>
+                {% endif %}
+            </ul>
+            <span class="copyright">&copy; {{ site.time | date: "%Y" }} {{ site.title }}</span>
+        </div>
     </footer>
+    
+    <script>
+        function toggleTheme() {
+            const html = document.documentElement;
+            const currentTheme = html.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            
+            const lightIcon = document.querySelector('.theme-icon-light');
+            const darkIcon = document.querySelector('.theme-icon-dark');
+            if (newTheme === 'dark') {
+                lightIcon.style.display = 'none';
+                darkIcon.style.display = 'inline';
+            } else {
+                lightIcon.style.display = 'inline';
+                darkIcon.style.display = 'none';
+            }
+        }
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const theme = document.documentElement.getAttribute('data-theme');
+            const lightIcon = document.querySelector('.theme-icon-light');
+            const darkIcon = document.querySelector('.theme-icon-dark');
+            if (theme === 'dark') {
+                lightIcon.style.display = 'none';
+                darkIcon.style.display = 'inline';
+            }
+        });
+    </script>
 </body>
 </html>

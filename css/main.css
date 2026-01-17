@@ -1,53 +1,178 @@
 /* ==========================================================================
-   Option C: Warm Academic - Clean, Modern, Refined
+   al-folio Inspired Theme - Accurate Recreation
+   Based on github.com/alshedivat/al-folio
+   Max-width: 930px | Roboto font family | Purple/Cyan accents
    ========================================================================== */
 
 /* --------------------------------------------------------------------------
-   CSS Variables (Easy to customize colors)
+   CSS Variables - Light Mode (Default)
    -------------------------------------------------------------------------- */
 :root {
-    --color-primary: #2c3e50;      /* Deep navy - main text */
-    --color-secondary: #5a6c7d;    /* Muted blue-gray - secondary text */
-    --color-accent: #c0392b;       /* Warm burgundy - links, highlights */
-    --color-accent-hover: #922b21; /* Darker burgundy - hover state */
-    --color-background: #fafafa;   /* Off-white background */
-    --color-surface: #ffffff;      /* White for cards/sections */
-    --color-border: #e0e0e0;       /* Light gray borders */
-    --color-border-accent: #c0392b;/* Accent border */
-    --font-main: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-    --font-heading: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-    --max-width: 900px;
-    --spacing-unit: 1rem;
+    /* al-folio exact colors */
+    --global-bg-color: #ffffff;
+    --global-code-bg-color: rgba(181, 9, 172, 0.05);
+    --global-text-color: #000000;
+    --global-text-color-light: #828282;
+    --global-theme-color: #b509ac;
+    --global-hover-color: #b509ac;
+    --global-hover-text-color: #ffffff;
+    --global-footer-bg-color: #1c1c1d;
+    --global-footer-text-color: #e8e8e8;
+    --global-footer-link-color: #ffffff;
+    --global-divider-color: rgba(0, 0, 0, 0.1);
+    --global-card-bg-color: #ffffff;
+    
+    /* Typography */
+    --font-family-sans: -apple-system, BlinkMacSystemFont, 'Roboto', 'Segoe UI', 'Helvetica Neue', 'Lucida Grande', Arial, sans-serif;
+    --font-family-mono: 'Roboto Mono', 'SFMono-Regular', Menlo, Monaco, Consolas, monospace;
+    
+    /* Layout - al-folio uses 930px max-width */
+    --max-content-width: 930px;
+    --navbar-height: 56px;
 }
 
 /* --------------------------------------------------------------------------
-   Base Styles
+   Dark Mode
    -------------------------------------------------------------------------- */
-* {
+html[data-theme="dark"] {
+    --global-bg-color: #1c1c1d;
+    --global-code-bg-color: #2c3237;
+    --global-text-color: #e8e8e8;
+    --global-text-color-light: #a0a0a0;
+    --global-theme-color: #2698ba;
+    --global-hover-color: #2698ba;
+    --global-hover-text-color: #000000;
+    --global-footer-bg-color: #212529;
+    --global-footer-text-color: #e8e8e8;
+    --global-footer-link-color: #e8e8e8;
+    --global-divider-color: #424246;
+    --global-card-bg-color: #212529;
+}
+
+/* --------------------------------------------------------------------------
+   Base Reset & Defaults
+   -------------------------------------------------------------------------- */
+*, *::before, *::after {
     box-sizing: border-box;
 }
 
 html {
+    font-size: 16px;
     scroll-behavior: smooth;
+    scroll-padding-top: calc(var(--navbar-height) + 10px);
 }
 
 body {
-    font-family: var(--font-main);
-    font-size: 1.05rem;
-    line-height: 1.7;
-    color: var(--color-primary);
-    background-color: var(--color-background);
+    margin: 0;
+    padding: 0;
+    padding-top: var(--navbar-height);
+    font-family: var(--font-family-sans);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--global-text-color);
+    background-color: var(--global-bg-color);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* --------------------------------------------------------------------------
+   Header / Navigation (al-folio fixed navbar style)
+   -------------------------------------------------------------------------- */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: var(--navbar-height);
+    background-color: var(--global-bg-color);
+    border-bottom: 1px solid var(--global-divider-color);
+    z-index: 1000;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+nav {
+    max-width: var(--max-content-width);
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Site title/brand in nav */
+.site-title {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--global-text-color);
+    text-decoration: none;
+    letter-spacing: -0.02em;
+}
+
+.site-title:hover {
+    color: var(--global-theme-color);
+    text-decoration: none;
+}
+
+/* Navigation links */
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+}
+
+nav ul li {
     margin: 0;
     padding: 0;
 }
 
+nav ul li::before {
+    content: none;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--global-text-color);
+    text-decoration: none;
+    transition: color 0.15s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: var(--global-theme-color);
+}
+
+/* Theme toggle button */
+.theme-toggle {
+    background: none;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    color: var(--global-text-color);
+    font-size: 1rem;
+    line-height: 1;
+    transition: color 0.15s ease;
+}
+
+.theme-toggle:hover {
+    color: var(--global-theme-color);
+}
+
 /* --------------------------------------------------------------------------
-   Layout Container
+   Main Content Container
    -------------------------------------------------------------------------- */
-.container {
-    max-width: var(--max-width);
+main, .container, .content {
+    max-width: var(--max-content-width);
     margin: 0 auto;
-    padding: 2rem 1.5rem;
+    padding: 30px 15px;
 }
 
 .blurb {
@@ -55,230 +180,344 @@ body {
 }
 
 /* --------------------------------------------------------------------------
-   Navigation
+   About Page / Profile Layout (al-folio two-column)
    -------------------------------------------------------------------------- */
-nav {
-    background-color: var(--color-surface);
-    border-bottom: 1px solid var(--color-border);
-    padding: 1rem 0;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-}
-
-nav ul {
-    max-width: var(--max-width);
-    margin: 0 auto;
-    padding: 0 1.5rem;
-    list-style: none;
+.about-section {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem 2rem;
+    gap: 30px;
+    align-items: flex-start;
 }
 
-nav ul li {
-    margin: 0;
+.profile {
+    flex: 0 0 200px;
+    text-align: center;
 }
 
-nav ul li a {
-    font-family: var(--font-main);
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--color-secondary);
+.profile img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.profile .name {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--global-text-color);
+    margin-bottom: 5px;
+}
+
+.profile .position {
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+    margin-bottom: 10px;
+}
+
+.profile .institution {
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+}
+
+.profile .social-icons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.profile .social-icons a {
+    color: var(--global-text-color);
+    font-size: 1.1rem;
     text-decoration: none;
-    padding: 0.5rem 0;
-    border-bottom: 2px solid transparent;
-    transition: color 0.2s ease, border-color 0.2s ease;
+    transition: color 0.15s ease;
 }
 
-nav ul li a:hover,
-nav ul li a:focus {
-    color: var(--color-accent);
-    border-bottom-color: var(--color-accent);
-    text-decoration: none;
+.profile .social-icons a:hover {
+    color: var(--global-theme-color);
 }
 
-/* Active page indicator - add class="active" to current page link */
-nav ul li a.active {
-    color: var(--color-accent);
-    border-bottom-color: var(--color-accent);
+.bio {
+    flex: 1;
+    min-width: 300px;
 }
 
 /* --------------------------------------------------------------------------
    Typography
    -------------------------------------------------------------------------- */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-sans);
+    font-weight: 500;
+    color: var(--global-text-color);
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    line-height: 1.3;
+}
+
 h1 {
-    font-family: var(--font-heading);
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: var(--color-primary);
-    margin: 0 0 1rem 0;
-    line-height: 1.2;
+    font-size: 2rem;
 }
 
 h2 {
-    font-family: var(--font-heading);
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: var(--color-primary);
-    margin: 2.5rem 0 1rem 0;
-    padding-bottom: 0.5rem;
-    border-bottom: 2px solid var(--color-border);
+    font-size: 1.4rem;
+    margin-top: 1.75rem;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+h2 a {
+    color: var(--global-text-color);
+    text-decoration: none;
+}
+
+h2 a:hover {
+    color: var(--global-theme-color);
 }
 
 h3 {
-    font-family: var(--font-heading);
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: var(--color-secondary);
-    margin: 1.5rem 0 0.75rem 0;
+    font-size: 1.15rem;
+    margin-top: 1.25rem;
 }
 
 p {
-    font-family: var(--font-main);
-    font-size: 1.05rem;
-    color: var(--color-primary);
     margin: 0 0 1rem 0;
-    line-height: 1.7;
+    line-height: 1.6;
+}
+
+/* Page title styling */
+.post-header h1,
+.page-title {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+
+.post-header .desc,
+.page-subtitle {
+    font-size: 1rem;
+    color: var(--global-text-color-light);
+    font-style: italic;
+    margin-bottom: 1.5rem;
 }
 
 /* --------------------------------------------------------------------------
-   Links
+   Links (al-folio style - underlined)
    -------------------------------------------------------------------------- */
 a {
-    color: var(--color-accent);
-    text-decoration: none;
-    transition: color 0.2s ease;
+    color: var(--global-theme-color);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    transition: color 0.15s ease;
 }
 
-a:hover,
-a:focus {
-    color: var(--color-accent-hover);
-    text-decoration: underline;
+a:hover {
+    color: var(--global-hover-color);
+}
+
+/* Remove underlines from nav, buttons, etc */
+nav a,
+.btn,
+.social-icons a,
+.site-title {
+    text-decoration: none;
 }
 
 /* --------------------------------------------------------------------------
-   Lists
+   Lists (compact al-folio style)
    -------------------------------------------------------------------------- */
 ul, ol {
-    font-family: var(--font-main);
-    font-size: 1.05rem;
-    color: var(--color-primary);
-    margin: 0 0 1.5rem 0;
+    margin: 0 0 1rem 0;
     padding-left: 1.25rem;
-    line-height: 1.7;
+    line-height: 1.6;
 }
 
 ul {
-    list-style: none;
-    padding-left: 0;
+    list-style-type: disc;
 }
 
-ul li {
-    position: relative;
-    padding-left: 1rem;
-    margin-bottom: 0.5rem;
+ol {
+    list-style-type: decimal;
 }
 
-ul li::before {
-    content: "–";
-    position: absolute;
-    left: 0;
-    color: var(--color-accent);
-    font-weight: 600;
+li {
+    margin-bottom: 0.35rem;
+    padding-left: 0.25rem;
+}
+
+li::marker {
+    color: var(--global-text-color-light);
 }
 
 /* Nested lists */
-ul ul {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+ul ul, ol ol, ul ol, ol ul {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
 }
 
-/* Remove bullets from nav and footer lists */
-nav ul li::before,
-footer ul li::before {
-    content: none;
+/* Remove list styling from nav/footer */
+nav ul, footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-nav ul li,
-footer ul li {
-    padding-left: 0;
+nav li, footer li {
+    margin: 0;
+    padding: 0;
 }
 
 /* --------------------------------------------------------------------------
-   Tables (for course pages)
+   News Section (al-folio compact news style)
+   -------------------------------------------------------------------------- */
+.news {
+    margin-top: 1.5rem;
+}
+
+.news h2 {
+    margin-bottom: 0.75rem;
+}
+
+.news-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.news-list li {
+    display: flex;
+    gap: 15px;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--global-divider-color);
+    margin: 0;
+}
+
+.news-list li:last-child {
+    border-bottom: none;
+}
+
+.news-date {
+    flex: 0 0 85px;
+    font-size: 0.85rem;
+    color: var(--global-theme-color);
+    font-weight: 500;
+}
+
+.news-content {
+    flex: 1;
+    font-size: 0.95rem;
+}
+
+/* --------------------------------------------------------------------------
+   Publications (compact list)
+   -------------------------------------------------------------------------- */
+.publications-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.publications-list li {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--global-divider-color);
+    margin: 0;
+}
+
+.publications-list li:last-child {
+    border-bottom: none;
+}
+
+.pub-title {
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+
+.pub-authors {
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+    margin-bottom: 0.25rem;
+}
+
+.pub-venue {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: var(--global-text-color-light);
+}
+
+/* --------------------------------------------------------------------------
+   Tables (al-folio minimal style)
    -------------------------------------------------------------------------- */
 table {
     width: 100%;
     border-collapse: collapse;
-    margin: 1.5rem 0;
+    margin: 1rem 0;
     font-size: 0.95rem;
 }
 
 th, td {
     text-align: left;
-    padding: 0.75rem;
-    border-bottom: 1px solid var(--color-border);
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid var(--global-divider-color);
 }
 
 th {
-    font-weight: 600;
-    color: var(--color-secondary);
-    background-color: var(--color-background);
+    font-weight: 500;
+    color: var(--global-text-color);
 }
 
-tr:hover {
-    background-color: var(--color-background);
-}
-
-/* --------------------------------------------------------------------------
-   Horizontal Rules
-   -------------------------------------------------------------------------- */
-hr {
-    border: none;
-    border-top: 1px solid var(--color-border);
-    margin: 2rem 0;
+tbody tr:last-child td {
+    border-bottom: none;
 }
 
 /* --------------------------------------------------------------------------
-   Footer
+   Course/Teaching Cards
    -------------------------------------------------------------------------- */
-footer {
-    background-color: var(--color-surface);
-    border-top: 1px solid var(--color-border);
-    margin-top: 3rem;
-    padding: 2rem 0;
-}
-
-footer ul {
-    max-width: var(--max-width);
-    margin: 0 auto;
-    padding: 0 1.5rem;
+.course-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
     list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem 2rem;
+    padding: 0;
+    margin: 1rem 0;
 }
 
-footer ul li {
+.course-list li {
     margin: 0;
     padding: 0;
 }
 
-footer ul li a {
-    font-size: 0.9rem;
-    color: var(--color-secondary);
+.course-card {
+    display: block;
+    padding: 1rem;
+    background-color: var(--global-card-bg-color);
+    border: 1px solid var(--global-divider-color);
+    border-radius: 4px;
+    text-decoration: none;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 
-footer ul li a:hover {
-    color: var(--color-accent);
+.course-card:hover {
+    border-color: var(--global-theme-color);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    text-decoration: none;
 }
 
-/* --------------------------------------------------------------------------
-   Course Navigation (year selector)
-   -------------------------------------------------------------------------- */
+.course-card h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1rem;
+    color: var(--global-theme-color);
+}
+
+.course-card p {
+    margin: 0;
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+}
+
+/* Course navigation tabs */
 .course-nav {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .course-nav ul {
@@ -290,133 +529,265 @@ footer ul li a:hover {
     list-style: none;
 }
 
-.course-nav ul li {
-    padding: 0;
+.course-nav li {
     margin: 0;
+    padding: 0;
 }
 
-.course-nav ul li::before {
-    content: none;
-}
-
-.course-nav ul li a {
+.course-nav a {
     display: inline-block;
-    padding: 0.4rem 1rem;
-    background-color: var(--color-background);
-    border: 1px solid var(--color-border);
-    border-radius: 4px;
-    font-size: 0.9rem;
-    color: var(--color-secondary);
-    transition: all 0.2s ease;
+    padding: 0.35rem 0.75rem;
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+    background-color: var(--global-card-bg-color);
+    border: 1px solid var(--global-divider-color);
+    border-radius: 3px;
+    text-decoration: none;
+    transition: all 0.15s ease;
 }
 
-.course-nav ul li a:hover {
-    background-color: var(--color-accent);
-    border-color: var(--color-accent);
-    color: white;
-    text-decoration: none;
+.course-nav a:hover,
+.course-nav a.active {
+    background-color: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+    color: var(--global-hover-text-color);
 }
 
 /* --------------------------------------------------------------------------
-   Blockquotes (for emphasis)
+   Blockquotes
    -------------------------------------------------------------------------- */
 blockquote {
-    margin: 1.5rem 0;
-    padding: 1rem 1.5rem;
-    border-left: 4px solid var(--color-accent);
-    background-color: var(--color-surface);
-    color: var(--color-secondary);
+    margin: 1rem 0;
+    padding: 0.5rem 0 0.5rem 1rem;
+    border-left: 3px solid var(--global-theme-color);
+    color: var(--global-text-color-light);
     font-style: italic;
 }
 
+blockquote p:last-child {
+    margin-bottom: 0;
+}
+
 /* --------------------------------------------------------------------------
-   Code (inline and blocks)
+   Code
    -------------------------------------------------------------------------- */
 code {
-    font-family: 'SF Mono', 'Consolas', 'Monaco', monospace;
-    font-size: 0.9em;
-    background-color: var(--color-background);
-    padding: 0.2em 0.4em;
+    font-family: var(--font-family-mono);
+    font-size: 0.875em;
+    background-color: var(--global-code-bg-color);
+    padding: 0.15rem 0.35rem;
     border-radius: 3px;
 }
 
 pre {
-    background-color: var(--color-primary);
-    color: #f8f8f2;
+    background-color: #1e1e1e;
+    color: #d4d4d4;
     padding: 1rem;
-    border-radius: 4px;
+    border-radius: 6px;
     overflow-x: auto;
+    font-size: 0.875rem;
+    margin: 1rem 0;
 }
 
 pre code {
     background: none;
     padding: 0;
+    color: inherit;
 }
 
 /* --------------------------------------------------------------------------
-   Strong and Emphasis
+   Horizontal Rule
    -------------------------------------------------------------------------- */
-strong {
-    font-weight: 600;
-    color: var(--color-primary);
+hr {
+    border: none;
+    border-top: 1px solid var(--global-divider-color);
+    margin: 1.5rem 0;
 }
 
-em {
-    font-style: italic;
+/* --------------------------------------------------------------------------
+   Footer (al-folio dark footer)
+   -------------------------------------------------------------------------- */
+footer {
+    background-color: var(--global-footer-bg-color);
+    color: var(--global-footer-text-color);
+    padding: 1.5rem 0;
+    margin-top: 3rem;
+    transition: background-color 0.2s ease;
 }
+
+footer .footer-content {
+    max-width: var(--max-content-width);
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer li {
+    margin: 0;
+    padding: 0;
+}
+
+footer a {
+    color: var(--global-footer-link-color);
+    text-decoration: none;
+    font-size: 0.9rem;
+    opacity: 0.85;
+    transition: opacity 0.15s ease;
+}
+
+footer a:hover {
+    opacity: 1;
+    color: var(--global-footer-link-color);
+}
+
+footer .copyright {
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+/* --------------------------------------------------------------------------
+   CV Page Specific Styles
+   -------------------------------------------------------------------------- */
+.cv-section {
+    margin-bottom: 1.5rem;
+}
+
+.cv-section h2 {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.25rem;
+    border-bottom: 1px solid var(--global-divider-color);
+}
+
+.cv-entry {
+    margin-bottom: 0.75rem;
+}
+
+.cv-entry strong {
+    font-weight: 500;
+}
+
+.cv-entry .date {
+    color: var(--global-text-color-light);
+    font-size: 0.9rem;
+}
+
+/* --------------------------------------------------------------------------
+   Research Page
+   -------------------------------------------------------------------------- */
+.research-section {
+    margin-bottom: 2rem;
+}
+
+.research-section h2 {
+    margin-bottom: 1rem;
+}
+
+/* --------------------------------------------------------------------------
+   Utility Classes
+   -------------------------------------------------------------------------- */
+.text-muted {
+    color: var(--global-text-color-light);
+}
+
+.text-small {
+    font-size: 0.875rem;
+}
+
+.mb-0 { margin-bottom: 0; }
+.mb-1 { margin-bottom: 0.5rem; }
+.mb-2 { margin-bottom: 1rem; }
+.mt-1 { margin-top: 0.5rem; }
+.mt-2 { margin-top: 1rem; }
 
 /* --------------------------------------------------------------------------
    Responsive Design
    -------------------------------------------------------------------------- */
 @media screen and (max-width: 768px) {
-    :root {
-        --max-width: 100%;
+    html {
+        font-size: 15px;
     }
     
-    body {
-        font-size: 1rem;
-    }
-    
-    h1 {
-        font-size: 2rem;
-    }
-    
-    h2 {
-        font-size: 1.3rem;
-    }
-    
-    nav ul {
-        gap: 0.25rem 1rem;
+    nav {
+        padding: 0 10px;
     }
     
     nav ul li a {
-        font-size: 0.9rem;
-    }
-    
-    .container {
-        padding: 1.5rem 1rem;
-    }
-    
-    table {
+        padding: 0.5rem 0.5rem;
         font-size: 0.85rem;
     }
     
-    th, td {
-        padding: 0.5rem;
+    main, .container, .content {
+        padding: 20px 15px;
     }
-}
-
-@media screen and (max-width: 480px) {
+    
+    .about-section {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .profile {
+        flex: none;
+        width: 100%;
+    }
+    
+    .profile img {
+        max-width: 150px;
+    }
+    
+    .bio {
+        min-width: auto;
+        text-align: left;
+    }
+    
     h1 {
         font-size: 1.75rem;
     }
     
-    nav ul {
-        justify-content: center;
+    h2 {
+        font-size: 1.25rem;
     }
     
-    footer ul {
-        justify-content: center;
+    .course-list {
+        grid-template-columns: 1fr;
+    }
+    
+    footer .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    nav ul {
+        gap: 0;
+    }
+    
+    nav ul li a {
+        padding: 0.5rem 0.35rem;
+        font-size: 0.8rem;
+    }
+    
+    .news-list li {
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .news-date {
+        flex: none;
     }
 }
 
@@ -424,11 +795,12 @@ em {
    Print Styles
    -------------------------------------------------------------------------- */
 @media print {
-    nav, footer {
+    header, footer, .theme-toggle {
         display: none;
     }
     
     body {
+        padding-top: 0;
         background: white;
         color: black;
     }
@@ -436,5 +808,9 @@ em {
     a {
         color: black;
         text-decoration: underline;
+    }
+    
+    .about-section {
+        flex-direction: row;
     }
 }
