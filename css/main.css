@@ -1,7 +1,6 @@
 /* ==========================================================================
-   al-folio Inspired Theme - Accurate Recreation
-   Based on github.com/alshedivat/al-folio
-   Max-width: 930px | Roboto font family | Purple/Cyan accents
+   al-folio Inspired Theme with Yoonho Lee Typography
+   Fonts: Source Serif 4 (headings) + Source Sans 3 (body)
    ========================================================================== */
 
 /* --------------------------------------------------------------------------
@@ -22,11 +21,12 @@
     --global-divider-color: rgba(0, 0, 0, 0.1);
     --global-card-bg-color: #ffffff;
     
-    /* Typography */
-    --font-family-sans: -apple-system, BlinkMacSystemFont, 'Roboto', 'Segoe UI', 'Helvetica Neue', 'Lucida Grande', Arial, sans-serif;
-    --font-family-mono: 'Roboto Mono', 'SFMono-Regular', Menlo, Monaco, Consolas, monospace;
+    /* Typography - Yoonho Lee style */
+    --font-family-serif: "Source Serif 4", Charter, "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    --font-family-sans: "Source Sans 3", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --font-family-mono: monospace;
     
-    /* Layout - al-folio uses 930px max-width */
+    /* Layout */
     --max-content-width: 930px;
     --navbar-height: 56px;
 }
@@ -57,7 +57,7 @@ html[data-theme="dark"] {
 }
 
 html {
-    font-size: 16px;
+    font-size: 1.0625rem; /* 17px - matches yoonholee.com */
     scroll-behavior: smooth;
     scroll-padding-top: calc(var(--navbar-height) + 10px);
 }
@@ -72,13 +72,16 @@ body {
     line-height: 1.5;
     color: var(--global-text-color);
     background-color: var(--global-bg-color);
+    text-rendering: optimizeLegibility;
+    font-kerning: normal;
+    font-feature-settings: "liga" 1, "calt" 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 /* --------------------------------------------------------------------------
-   Header / Navigation (al-folio fixed navbar style)
+   Header / Navigation
    -------------------------------------------------------------------------- */
 header {
     position: fixed;
@@ -104,8 +107,9 @@ nav {
 
 /* Site title/brand in nav */
 .site-title {
+    font-family: var(--font-family-serif);
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 600;
     color: var(--global-text-color);
     text-decoration: none;
     letter-spacing: -0.02em;
@@ -138,6 +142,7 @@ nav ul li::before {
 nav ul li a {
     display: block;
     padding: 0.5rem 0.75rem;
+    font-family: var(--font-family-sans);
     font-size: 0.9rem;
     font-weight: 400;
     color: var(--global-text-color);
@@ -180,7 +185,7 @@ main, .container, .content {
 }
 
 /* --------------------------------------------------------------------------
-   About Page / Profile Layout (al-folio two-column)
+   About Page / Profile Layout
    -------------------------------------------------------------------------- */
 .about-section {
     display: flex;
@@ -202,8 +207,9 @@ main, .container, .content {
 }
 
 .profile .name {
+    font-family: var(--font-family-serif);
     font-size: 1.1rem;
-    font-weight: 500;
+    font-weight: 600;
     color: var(--global-text-color);
     margin-bottom: 5px;
 }
@@ -243,23 +249,23 @@ main, .container, .content {
 }
 
 /* --------------------------------------------------------------------------
-   Typography
+   Typography - Yoonho Lee sizes
    -------------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-family-sans);
-    font-weight: 500;
+    font-family: var(--font-family-serif);
+    font-weight: 600;
     color: var(--global-text-color);
     margin-top: 0;
     margin-bottom: 0.75rem;
-    line-height: 1.3;
+    line-height: 1.2;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 2.4rem;
 }
 
 h2 {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     margin-top: 1.75rem;
     margin-bottom: 0.5rem;
     padding-bottom: 0;
@@ -276,39 +282,42 @@ h2 a:hover {
 }
 
 h3 {
-    font-size: 1.15rem;
+    font-size: 1.4rem;
     margin-top: 1.25rem;
 }
 
 p {
     margin: 0 0 1rem 0;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 /* Page title styling */
 .post-header h1,
 .page-title {
-    font-size: 2rem;
-    font-weight: 500;
+    font-family: var(--font-family-serif);
+    font-size: 2.5rem;
+    font-weight: 600;
     margin-bottom: 0.25rem;
+    line-height: 1.2;
 }
 
 .post-header .desc,
 .page-subtitle {
-    font-size: 1rem;
+    font-family: var(--font-family-sans);
+    font-size: 0.95rem;
     color: var(--global-text-color-light);
     font-style: italic;
     margin-bottom: 1.5rem;
 }
 
 /* --------------------------------------------------------------------------
-   Links (al-folio style - underlined)
+   Links (underlined with proper offset)
    -------------------------------------------------------------------------- */
 a {
     color: var(--global-theme-color);
     text-decoration: underline;
     text-decoration-thickness: 1px;
-    text-underline-offset: 2px;
+    text-underline-offset: 0.18em;
     transition: color 0.15s ease;
 }
 
@@ -325,12 +334,12 @@ nav a,
 }
 
 /* --------------------------------------------------------------------------
-   Lists (compact al-folio style)
+   Lists
    -------------------------------------------------------------------------- */
 ul, ol {
     margin: 0 0 1rem 0;
     padding-left: 1.25rem;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 ul {
@@ -369,7 +378,7 @@ nav li, footer li {
 }
 
 /* --------------------------------------------------------------------------
-   News Section (al-folio compact news style)
+   News Section
    -------------------------------------------------------------------------- */
 .news {
     margin-top: 1.5rem;
@@ -410,7 +419,7 @@ nav li, footer li {
 }
 
 /* --------------------------------------------------------------------------
-   Publications (compact list)
+   Publications
    -------------------------------------------------------------------------- */
 .publications-list {
     list-style: none;
@@ -446,13 +455,14 @@ nav li, footer li {
 }
 
 /* --------------------------------------------------------------------------
-   Tables (al-folio minimal style)
+   Tables
    -------------------------------------------------------------------------- */
 table {
     width: 100%;
     border-collapse: collapse;
     margin: 1rem 0;
     font-size: 0.95rem;
+    line-height: 1.5;
 }
 
 th, td {
@@ -504,8 +514,10 @@ tbody tr:last-child td {
 }
 
 .course-card h3 {
+    font-family: var(--font-family-sans);
     margin: 0 0 0.5rem 0;
     font-size: 1rem;
+    font-weight: 600;
     color: var(--global-theme-color);
 }
 
@@ -562,6 +574,7 @@ blockquote {
     border-left: 3px solid var(--global-theme-color);
     color: var(--global-text-color-light);
     font-style: italic;
+    line-height: 1.4;
 }
 
 blockquote p:last-child {
@@ -573,7 +586,7 @@ blockquote p:last-child {
    -------------------------------------------------------------------------- */
 code {
     font-family: var(--font-family-mono);
-    font-size: 0.875em;
+    font-size: 0.875rem;
     background-color: var(--global-code-bg-color);
     padding: 0.15rem 0.35rem;
     border-radius: 3px;
@@ -586,6 +599,7 @@ pre {
     border-radius: 6px;
     overflow-x: auto;
     font-size: 0.875rem;
+    line-height: 1.4;
     margin: 1rem 0;
 }
 
@@ -605,7 +619,7 @@ hr {
 }
 
 /* --------------------------------------------------------------------------
-   Footer (al-folio dark footer)
+   Footer
    -------------------------------------------------------------------------- */
 footer {
     background-color: var(--global-footer-bg-color);
@@ -666,7 +680,7 @@ footer .copyright {
 }
 
 .cv-section h2 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     margin-bottom: 0.75rem;
     padding-bottom: 0.25rem;
     border-bottom: 1px solid var(--global-divider-color);
@@ -718,7 +732,7 @@ footer .copyright {
    -------------------------------------------------------------------------- */
 @media screen and (max-width: 768px) {
     html {
-        font-size: 15px;
+        font-size: 1rem;
     }
     
     nav {
@@ -753,12 +767,16 @@ footer .copyright {
         text-align: left;
     }
     
-    h1 {
-        font-size: 1.75rem;
+    h1, .post-header h1, .page-title {
+        font-size: 2rem;
     }
     
     h2 {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
+    }
+    
+    h3 {
+        font-size: 1.3rem;
     }
     
     .course-list {
