@@ -5,7 +5,7 @@ title: Home
 
 <div class="about-section">
 <div class="profile">
-<img src="/assets/images/profile.jpg" alt="Sebastián Freille" onerror="this.style.display='none'">
+<img src="/assets/images/profile.jpeg" alt="Sebastián Freille" onerror="this.style.display='none'">
 <div class="name">Sebastián Freille</div>
 <div class="position">Associate Professor</div>
 <div class="institution">Universidad Nacional de Córdoba</div>
