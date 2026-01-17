@@ -9,7 +9,10 @@ title: Home
 </div>
 <div class="bio" markdown="1">
 
-I am an academic economist at the [Universidad Nacional de Córdoba](https://www.eco.unc.edu.ar/) (UNC), Argentina. I teach and do research in **public economics** and **political economy**.
+I am an academic economist at the [Universidad Nacional de
+Córdoba](https://www.eco.unc.edu.ar/) (UNC), Argentina. I teach and do
+research in **public economics** and **political economy**. I
+completed my PhD at the [University of Nottingham](https://www.nottingham.ac.uk) 
 
 My research interests focus on sub-national elections, political economy of redistribution, special interest groups, lobbying and corruption. I am and will always be a [Maradonian](https://es.wikipedia.org/wiki/Diego_Maradona).
 
