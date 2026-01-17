@@ -7,8 +7,7 @@ title: Home
 <div class="profile">
 <img src="/assets/images/profile.jpeg" alt="Sebastián Freille" onerror="this.style.display='none'">
 </div>
-
-<div class="bio">
+<div class="bio" markdown="1">
 
 I am an academic economist at the [Universidad Nacional de Córdoba](https://www.eco.unc.edu.ar/) (UNC), Argentina. I teach and do research in **public economics** and **political economy**.
 
