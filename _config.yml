@@ -10,8 +10,8 @@ url: "https://sfreille.github.io"
 
 # Social/academic links
 github_username: sfreille
-google_scholar_id: https://scholar.google.com/citations?hl=es&user=MVhxy_sAAAAJ
-orcid_id: https://orcid.org/0000-0002-1458-0929
+google_scholar_id: MVhxy_sAAAAJ
+orcid_id: 0000-0002-1458-0929
 x_id: sebafreille
 
 # Build settings
@@ -19,6 +19,7 @@ markdown: kramdown
 highlighter: rouge
 
 # Exclude from processing
+
 exclude:
   - README.md
   - Gemfile

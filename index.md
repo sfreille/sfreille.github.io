@@ -29,25 +29,6 @@ My research interests focus on sub-national elections, political economy of redi
 
 <div class="news">
 
-## News
-
-<ul class="news-list">
-<li>
-<span class="news-date">Jan 2025</span>
-<span class="news-content">Presented at <a href="https://sfreille.github.io/slides/conferences/uca2025/freille-uca-2025.html">UCA Conference</a> on fiscal federalism in Argentina</span>
-</li>
-<li>
-<span class="news-date">Dec 2024</span>
-<span class="news-content">Talk on <a href="https://sfreille.github.io/slides/conferences/unc2025/freille-unc-2025.html">AI and Social Sciences</a> at UNC</span>
-</li>
-<li>
-<span class="news-date">Nov 2024</span>
-<span class="news-content">Working paper on <a href="https://sfreille.github.io/slides/epol/electoral-swings-slides.html">electoral swings in Argentina</a> after Covid-19</span>
-</li>
-</ul>
-
-</div>
-
 ## Selected Publications
 
 <ul class="publications-list">
