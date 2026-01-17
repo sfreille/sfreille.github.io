@@ -17,17 +17,6 @@ completed my PhD at the [University of Nottingham](https://www.nottingham.ac.uk)
 My research interests focus on sub-national elections, political economy of redistribution, special interest groups, lobbying and corruption. I am and will always be a [Maradonian](https://es.wikipedia.org/wiki/Diego_Maradona).
 
 </div>
-</div>
-
-## Research Interests
-
-- Public Economics and Public Finance
-- Political Economy and Electoral Politics
-- Sub-national Elections and Local Governments
-- Special Interest Groups, Lobbying and Influence
-- Corruption and Institutional Quality
-
-<div class="news">
 
 ## Selected Publications
 
