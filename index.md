@@ -9,12 +9,21 @@ title: Home
 </div>
 <div class="bio" markdown="1">
 
-I am an academic economist at the [Universidad Nacional de
-Córdoba](https://www.eco.unc.edu.ar/) (UNC), Argentina. I teach and do
-research in **public economics** and **political economy**. I
-completed my PhD at the [University of Nottingham](https://www.nottingham.ac.uk) 
+I am full-time professor at the [Facultad de Ciencias
+Económicas](https://www.eco.unc.edu.ar/) at the Universidad Nacional
+de Córdoba (UNC). I teach courses in **public economics** and **political economy** both the
+graduate and undergraduate level. I got my BA in Economics from the
+[Facultad de Ciencias Económicas](https://www.eco.unc.edu.ar) and completed my PhD at the [University of Nottingham](https://www.nottingham.ac.uk/economics/) 
+My research interests focus on sub-national elections, political
+economy of redistribution, special interest groups, lobbying and
+corruption. 
+I have been a consultant to both national and sub-national governments
+in issues ranging from local economic development to electoral
+districting. 
+I am and will always be a
+[Maradonian](https://es.wikipedia.org/wiki/Diego_Maradona).
 
-My research interests focus on sub-national elections, political economy of redistribution, special interest groups, lobbying and corruption. I am and will always be a [Maradonian](https://es.wikipedia.org/wiki/Diego_Maradona).
+
 
 </div>
 </div>
