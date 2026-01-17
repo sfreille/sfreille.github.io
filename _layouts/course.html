@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} | {{ site.title }}</title>
     <meta name="description" content="{{ page.title }} - {{ page.institution }}">
+    
+    <!-- Google Fonts - Source Sans Pro -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Main Stylesheet -->
     <link rel="stylesheet" type="text/css" href="/css/main.css">
 </head>
 <body>
@@ -12,7 +19,7 @@
         <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/research">Research</a></li>
-            <li><a href="/teaching">Courses</a></li>
+            <li><a href="/teaching" class="active">Courses</a></li>
             <li><a href="/about">About</a></li>
             <li><a href="/cv">CV</a></li>
         </ul>
@@ -23,7 +30,7 @@
             {% if page.archive_years %}
             <nav class="course-nav">
                 <ul>
-                    <li><a href="/teaching/{{ page.course_id }}">Actual ({{ page.year }})</a></li>
+                    <li><a href="/teaching/{{ page.course_id }}">Current ({{ page.year }})</a></li>
                     {% for year in page.archive_years %}
                     <li><a href="/teaching/{{ page.course_id }}-{{ year }}">{{ year }}</a></li>
                     {% endfor %}
@@ -37,8 +44,10 @@
     
     <footer>
         <ul>
-            <li><a href="mailto:{{ site.email }}">email</a></li>
-            <li><a href="https://github.com/{{ site.github_username }}">github.com/{{ site.github_username }}</a></li>
+            <li><a href="mailto:{{ site.email }}">Email</a></li>
+            <li><a href="https://github.com/{{ site.github_username }}">GitHub</a></li>
+            <li><a href="https://scholar.google.com/citations?user={{ site.google_scholar_id }}">Google Scholar</a></li>
+            <li><a href="https://orcid.org/{{ site.orcid_id }}">ORCID</a></li>
         </ul>
     </footer>
 </body>
