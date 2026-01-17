@@ -5,7 +5,7 @@ title: Home
 
 <div class="about-section">
 <div class="profile">
-<img src="/assets/images/profile.jpeg" alt="Sebastián Freille" onerror="this.style.display='none'">
+<img src="/assets/images/profile.jpg" alt="Sebastián Freille" onerror="this.style.display='none'">
 </div>
 <div class="bio" markdown="1">
 
@@ -13,15 +13,26 @@ I am full-time professor at the [Facultad de Ciencias
 Económicas](https://www.eco.unc.edu.ar/) at the Universidad Nacional
 de Córdoba (UNC). I teach courses in **public economics** and **political economy** both the
 graduate and undergraduate level. I got my BA in Economics from the
-[Facultad de Ciencias Económicas](https://www.eco.unc.edu.ar) and completed my PhD at the [University of Nottingham](https://www.nottingham.ac.uk/economics/) 
-My research interests focus on sub-national elections, political
+[Facultad de Ciencias Económicas](https://www.eco.unc.edu.ar) and
+completed my PhD at the [University of
+Nottingham](https://www.nottingham.ac.uk/economics/). Before joining
+my current position, I was a postdoc researcher at [Consejo
+Nacional de Investigaciones Científicas y Técnicas
+(CONICET)](https://www.conicet.gov.ar), a visiting fellow at the
+[University of Manchester](https://www.manchester.ac.uk) and a
+honorary research fellow at the [University of
+Nottingham](https://www.nottingham.ac.uk). 
+
+My primary focus is on sub-national elections, political
 economy of redistribution, special interest groups, lobbying and
 corruption. 
+
 I have been a consultant to both national and sub-national governments
 in issues ranging from local economic development to electoral
 districting. 
+
 I am and will always be a
-[Maradonian](https://es.wikipedia.org/wiki/Diego_Maradona).
+[maradonian](https://es.wikipedia.org/wiki/Diego_Maradona).
 
 
 
