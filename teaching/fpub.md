@@ -15,9 +15,9 @@ Desarrollar el estudio de la actividad económica y financiera del sector públi
 
 ## Cuerpo docente
 
-- **Prof. Adjunto:** FREILLE, Sebastián
+- **Profesor:** BARRAUD, Ariel
+- **Profesor:** FREILLE, Sebastián
 - **Prof. Asistente:** GRIÓN, Néstor
-- **Prof. Asistente:** CAGGIA, Mauricio
 
 ## Contenidos y programa
 
@@ -31,6 +31,24 @@ Desarrollar el estudio de la actividad económica y financiera del sector públi
 8. Sostenibilidad fiscal: Déficit público, endeudamiento y emisión monetaria
 9. Federalismo fiscal y relaciones financieras inter-gubernamentales
 10. Temas especiales: Tributación y gasto internacional. Sistemas de pensiones. Programas de redistribución
+
+## Clases
+
+| # | Tema | Slides |
+|---|------|--------|
+| 0 | Introducción y presentación de la materia | [HTML](https://sfreille.github.io/slides/fpub/lect00.html) [PDF](https://sfreille.github.io/slides/fpub/lect00.pdf) |
+| 1 | La economía del sector público | [HTML](https://sfreille.github.io/slides/fpub/lect01.html) [PDF](https://sfreille.github.io/slides/fpub/lect01.pdf) |
+| 2 | Las decisiones colectivas | [HTML](https://sfreille.github.io/slides/fpub/lect02.html) [PDF](https://sfreille.github.io/slides/fpub/lect02.pdf) |
+| 3 | El gasto y Presupuesto público: Los bienes públicos | [HTML](https://sfreille.github.io/slides/fpub/clase03.html) [PDF](https://sfreille.github.io/slides/fpub/clase03.pdf) |
+| 4 | El gasto y Presupuesto público: Presupuesto y crecimiento del gasto | [HTML](https://sfreille.github.io/slides/fpub/clase04.html) [PDF](https://sfreille.github.io/slides/fpub/clase04.pdf) |
+| 5 | El gasto y Presupuesto público: Programas sociales e incentivos | [HTML](https://sfreille.github.io/slides/fpub/clase05.html) [PDF](https://sfreille.github.io/slides/fpub/clase05.pdf) |
+| 6 | Los recursos del sector público: Atributos deseables y criterios para gravar | [HTML](https://sfreille.github.io/slides/fpub/clase06.html) [PDF](https://sfreille.github.io/slides/fpub/clase06.pdf) |
+| 7 | Los recursos del sector público: Incidencia impositiva y tax salience | [HTML](https://sfreille.github.io/slides/fpub/clase07.html) [PDF](https://sfreille.github.io/slides/fpub/clase07.pdf) |
+| 8 | Impuestos a los ingresos: Características generales | [HTML](https://sfreille.github.io/slides/fpub/clase08.html) [PDF](https://sfreille.github.io/slides/fpub/clase08.pdf) |
+| 9 | Impuestos a los ingresos: Efectos sobre incentivos. Equidad y eficiencia | [HTML](https://sfreille.github.io/slides/fpub/clase09.html) [PDF](https://sfreille.github.io/slides/fpub/clase09.pdf) |
+| 10 | Impuestos a los consumos: Características generales y tipos | [HTML](https://sfreille.github.io/slides/fpub/clase10.html) [PDF](https://sfreille.github.io/slides/fpub/clase10.pdf) |
+| 11 | Impuestos a los consumos: Impuestos indirectos. Eficiencia y equidad | [HTML](https://sfreille.github.io/slides/fpub/clase11.html) [PDF](https://sfreille.github.io/slides/fpub/clase11.pdf) |
+
 
 ## Clases
 
