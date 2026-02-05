@@ -39,9 +39,9 @@ Desarrollar el estudio de la actividad económica y financiera del sector públi
 | 0 | Introducción y presentación de la materia | [HTML](https://sfreille.github.io/slides/fpub/lect00.html) [PDF](https://sfreille.github.io/slides/fpub/lect00.pdf) |
 | 1 | La economía del sector público | [HTML](https://sfreille.github.io/slides/fpub/lect01.html) [PDF](https://sfreille.github.io/slides/fpub/lect01.pdf) |
 | 2 | Las decisiones colectivas | [HTML](https://sfreille.github.io/slides/fpub/lect02.html) [PDF](https://sfreille.github.io/slides/fpub/lect02.pdf) |
-| 3 | El gasto y Presupuesto público: Los bienes públicos | [HTML](https://sfreille.github.io/slides/fpub/lect03.html) [PDF](https://sfreille.github.io/slides/fpub/lect03.pdf) |
-| 4 | El gasto y Presupuesto público: Presupuesto y crecimiento del gasto | [HTML](https://sfreille.github.io/slides/fpub/lect04.html) [PDF](https://sfreille.github.io/slides/fpub/lect04.pdf) |
-| 5 | El gasto y Presupuesto público: Programas sociales e incentivos | [HTML](https://sfreille.github.io/slides/fpub/lect05.html) [PDF](https://sfreille.github.io/slides/fpub/lect05.pdf) |
+| 3 | El gasto público. El presupuesto público | [HTML](https://sfreille.github.io/slides/fpub/lect03.html) [PDF](https://sfreille.github.io/slides/fpub/lect03.pdf) |
+| 4 | El gasto público. Los bienes públicos | [HTML](https://sfreille.github.io/slides/fpub/lect04.html) [PDF](https://sfreille.github.io/slides/fpub/lect04.pdf) |
+| 5 | El gasto público. Análisis beneficio costo. Programas de gasto social. Incentivos y efectos | [HTML](https://sfreille.github.io/slides/fpub/lect05.html) [PDF](https://sfreille.github.io/slides/fpub/lect05.pdf) |
 | 6 | Los recursos del sector público: Atributos deseables y criterios para gravar | [HTML](https://sfreille.github.io/slides/fpub/lect06.html) [PDF](https://sfreille.github.io/slides/fpub/lect06.pdf) |
 | 7 | Los recursos del sector público: Incidencia impositiva y tax salience | [HTML](https://sfreille.github.io/slides/fpub/lect07.html) [PDF](https://sfreille.github.io/slides/fpub/lect07.pdf) |
 | 8 | Impuestos a los ingresos: Características generales | [HTML](https://sfreille.github.io/slides/fpub/lect08.html) [PDF](https://sfreille.github.io/slides/fpub/lect08.pdf) |
