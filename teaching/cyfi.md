@@ -5,7 +5,7 @@ institution: Universidad Católica de Córdoba
 permalink: /teaching/cyfi
 course_id: cyfi
 year: 2025
-archive_years: [2024, 2023]
+archive_years: [2024]
 ---
 
 # Comercio y Finanzas Internacionales [UCC]
@@ -41,7 +41,6 @@ El objetivo de la asignatura es presentar y desarrollar teorías y evidencias ac
 | 3 | Modelo de factores específicos y distribución del ingreso | [HTML](https://sfreille.github.io/slides/cyfi/2025/lect03.html) [PDF](https://sfreille.github.io/slides/cyfi/2025/lect03.pdf) |
 | 4 | Modelo de Heckscher-Ohlin | [HTML](https://sfreille.github.io/slides/cyfi/2025/lect04.html) [PDF](https://sfreille.github.io/slides/cyfi/2025/lect04.pdf) |
 | 5 | Modelo estándar de comercio | [HTML](https://sfreille.github.io/slides/cyfi/2025/lect05.html) [PDF](https://sfreille.github.io/slides/cyfi/2025/lect05.pdf) |
-| 6 | Modelos alternativos de comercio internacional | [HTML](https://sfreille.github.io/slides/cyfi/2025/lect06.html) [PDF](https://sfreille.github.io/slides/cyfi/2025/lect06.pdf) |
 | 7 | Balanza de pagos | [HTML](https://sfreille.github.io/slides/cyfi/2025/lect07.html) [PDF](https://sfreille.github.io/slides/cyfi/2025/lect07.pdf) |
 | 8 | El mercado de divisas. Tipo de cambio | [HTML](https://sfreille.github.io/slides/cyfi/2025/lect08.html) [PDF](https://sfreille.github.io/slides/cyfi/2025/lect08.pdf) |
 
