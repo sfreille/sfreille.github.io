@@ -37,8 +37,8 @@ Este curso presenta una aproximación cronológica y sistemática al estudio de 
 
 | # | Tema | Slides |
 |---|------|--------|
-| 0 | Presentación | |
-| 1 | Pensamiento y análisis económico: historia, métodos y el desarrollo de la economía | |
+| 0 | Presentación | [lect00](https://sfreille.github.io/slides/hpae/lect00.html)|
+| 1 | Pensamiento y análisis económico: historia, métodos y el desarrollo de la economía |  [lect01](https://sfreille.github.io/slides/hpae/lect01.html) |
 | 2 | Desde los inicios hasta fines de la edad Media | |
 | 3 | La economía pre-clásica: auge del comercio, el Estado nación y el mercantilismo | |
 | 4 | La economía política: El pensamiento clásico --Adam Smith | |
