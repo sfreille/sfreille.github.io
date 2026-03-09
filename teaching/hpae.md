@@ -4,8 +4,8 @@ title: Historia del Pensamiento y del Análisis Económico
 institution: Universidad Nacional de Córdoba
 permalink: /teaching/hpae
 course_id: hpae
-year: 2025
-archive_years: [2024, 2023]
+year: 2026
+archive_years: [2025, 2024]
 ---
 
 # Historia del Pensamiento y del Análisis Económico [UNC]
@@ -35,10 +35,10 @@ Este curso presenta una aproximación cronológica y sistemática al estudio de 
 
 ## Clases
 
-| # | Tema | Slides |
-|---|------|--------|
-| 0 | Presentación | [lect00](https://sfreille.github.io/slides/hpae/lect00.html)|
-| 1 | Pensamiento y análisis económico: historia, métodos y el desarrollo de la economía |  [lect01](https://sfreille.github.io/slides/hpae/lect01.html) |
+| # | Tema | HTML | PDF |
+|---|------|------|-----|
+| 0 | Presentación | [lect00](https://sfreille.github.io/slides/hpae/lect00.html)|  [lect00](https://sfreille.github.io/slides/hpae/lect00.pdf)
+| 1 | Pensamiento y análisis económico: historia, métodos y el desarrollo de la economía |  [lect01](https://sfreille.github.io/slides/hpae/lect01.html) | [lect01](https://sfreille.github.io/slides/hpae/lect01.pdf) | 
 | 2 | Desde los inicios hasta fines de la edad Media | |
 | 3 | La economía pre-clásica: auge del comercio, el Estado nación y el mercantilismo | |
 | 4 | La economía política: El pensamiento clásico --Adam Smith | |
