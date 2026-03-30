@@ -40,7 +40,7 @@ Este curso presenta una aproximación cronológica y sistemática al estudio de 
 | 0 | Presentación | [lect00](https://sfreille.github.io/slides/hpae/lect00.html)|  [lect00](https://sfreille.github.io/slides/hpae/lect00.pdf)
 | 1 | Pensamiento y análisis económico: historia, métodos y el desarrollo de la economía |  [lect01](https://sfreille.github.io/slides/hpae/lect01.html) | [lect01](https://sfreille.github.io/slides/hpae/lect01.pdf) | 
 | 2 | Desde los inicios hasta fines de la edad Media | [lect02](https://sfreille.github.io/slides/hpae/lect02.html)|  [lect02](https://sfreille.github.io/slides/hpae/lect02.pdf)
-| 3 | La economía pre-clásica: auge del comercio, el Estado nación y el mercantilismo | |
+| 3 | La economía pre-clásica: auge del comercio, el Estado nación y el mercantilismo | [lect03](https://sfreille.github.io/slides/hpae/lect03.html)| [lect03](https://sfreille.github.io/slides/hpae/lect03.pdf)  |
 | 4 | La economía política: El pensamiento clásico --Smith, Ricardo, J.S. Mill. | |
 | 5 | La economía política: El pensamiento clásico II --Reacciones y críticas. | |
 | 6 | La escuela neoclásica: La revolución marginalista | |
