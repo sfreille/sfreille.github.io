@@ -54,6 +54,10 @@ permalink: /research
 
 <ul class="publications-list">
 <li>
+<div class="pub-title"><a href="https://sfreille.github.io/slides/conferences/seminario-ief/seminar-slides.html">Seminario IEF 2026</a></div>
+<div class="pub-venue">IEF, 2026</div>
+</li>
+<li>
 <div class="pub-title"><a href="https://sfreille.github.io/slides/conferences/ief2026/2026-jornadas-ief.html">Mesa 3. Estado, Política y Desarrollo. Economía del Sector Público, Política y Finanzas Públicas</a></div>
 <div class="pub-venue">I Jornadas de Investigación del IEF, 2026</div>
 </li>
