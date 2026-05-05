@@ -43,6 +43,7 @@ Este curso presenta una aproximación cronológica y sistemática al estudio de 
 | 3 | La economía pre-clásica: auge del comercio, el Estado nación y el mercantilismo | [lect03](https://sfreille.github.io/slides/hpae/lect03.html)| [lect03](https://sfreille.github.io/slides/hpae/lect03.pdf)  |
 | 4 | La economía política: El pensamiento clásico --Smith, Ricardo, J.S. Mill. | [lect04](https://sfreille.github.io/slides/hpae/lect04.html)|  [lect04](https://sfreille.github.io/slides/hpae/lect04.pdf) |
 | 5 | La economía política: El pensamiento clásico II --Reacciones y críticas. |  [lect05](https://sfreille.github.io/slides/hpae/lect05.html)|  [lect05](https://sfreille.github.io/slides/hpae/lect05.pdf) | |
+| 5 | La economía política: El pensamiento clásico II --Reacciones y críticas. (cont.) |  [lect06](https://sfreille.github.io/slides/hpae/lect06.html)|  [lect06](https://sfreille.github.io/slides/hpae/lect06.pdf) | |
 | 6 | La escuela neoclásica: La revolución marginalista | |
 | 7 | Las reacciones en el siglo XX: críticas al método y a los supuestos. | |
 | 8 | El nacimiento de la macroeconomía: Keynes y la teoría general | |
