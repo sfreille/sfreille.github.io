@@ -54,7 +54,7 @@ permalink: /research
 
 <ul class="publications-list">
 <li>
-<div class="pub-title"><a href="https://sfreille.github.io/slides/conferences/uca2026/index.html">Measuring the Ideology-Policy Gap: Empirical Evidence from Argentina's 2023 Election</a></div>
+<div class="pub-title"><a href="https://sfreille.github.io/slides/conferences/uca2026/seminar-uca.html">Measuring the Ideology-Policy Gap: Empirical Evidence from Argentina's 2023 Election</a></div>
 <div class="pub-venue">UCA Seminar, May 2026</div>
 </li>
 <li>
