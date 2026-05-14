@@ -42,7 +42,9 @@ El objetivo de la asignatura es presentar y desarrollar teorías y evidencias ac
 | 4 | Modelo de Heckscher-Ohlin | [HTML](https://sfreille.github.io/slides/cyfi/lect04.html) [PDF](https://sfreille.github.io/slides/cyfi/lect04.pdf) |
 | 5 | Modelo estándar de comercio | [HTML](https://sfreille.github.io/slides/cyfi/lect05.html) [PDF](https://sfreille.github.io/slides/cyfi/lect05.pdf) |
 | 7 | Balanza de pagos | [HTML](https://sfreille.github.io/slides/cyfi/lect07.html) [PDF](https://sfreille.github.io/slides/cyfi/lect07.pdf) |
-| 8 | El mercado de divisas. Tipo de cambio | [HTML](https://sfreille.github.io/slides/cyfi/lect08.html) [PDF](https://sfreille.github.io/slides/cyfi/lect08.pdf) |
+| 8 | El mercado de divisas. Tipo de cambio (I) | [HTML](https://sfreille.github.io/slides/cyfi/lect08.html) [PDF](https://sfreille.github.io/slides/cyfi/lect08.pdf) |
+| 8 | El mercado de divisas. Tipo de cambio (II)| [HTML](https://sfreille.github.io/slides/cyfi/lect09.html) [PDF](https://sfreille.github.io/slides/cyfi/lect09.pdf) |
+| 8 | El mercado de divisas. Tipo de cambio (III) | [HTML](https://sfreille.github.io/slides/cyfi/lect10.html) [PDF](https://sfreille.github.io/slides/cyfi/lect10.pdf) |
 
 ## Recursos útiles
 
