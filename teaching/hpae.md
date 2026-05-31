@@ -44,9 +44,9 @@ Este curso presenta una aproximación cronológica y sistemática al estudio de 
 | 4 | La economía política: El pensamiento clásico --Smith, Ricardo, J.S. Mill. | [lect04](https://sfreille.github.io/slides/hpae/lect04.html)|  [lect04](https://sfreille.github.io/slides/hpae/lect04.pdf) |
 | 5 | La economía política: El pensamiento clásico II --Reacciones y críticas. |  [lect05](https://sfreille.github.io/slides/hpae/lect05.html)|  [lect05](https://sfreille.github.io/slides/hpae/lect05.pdf) | |
 | 5 | La economía política: El pensamiento clásico II --Reacciones y críticas. (cont.) |  [lect06](https://sfreille.github.io/slides/hpae/lect06.html)|  [lect06](https://sfreille.github.io/slides/hpae/lect06.pdf) | |
-| 6 | La escuela neoclásica: La revolución marginalista | [lect07](https://sfreille.github.io/slides/hpae/lect015.html)| [lect07](https://sfreille.github.io/slides/hpae/lect15.pdf) | |
-| 6 | La escuela neoclásica: La revolución marginalista | [lect08](https://sfreille.github.io/slides/hpae/lect016.html)| [lect08](https://sfreille.github.io/slides/hpae/lect16.pdf) | |
-| 7 | Las reacciones en el siglo XX: críticas al método y a los supuestos. | [lect09](https://sfreille.github.io/slides/hpae/lect017.html)| [lect09](https://sfreille.github.io/slides/hpae/lect17.pdf) | | |
+| 6 | La escuela neoclásica: La revolución marginalista | [lect07](https://sfreille.github.io/slides/hpae/lect07.html)| [lect07](https://sfreille.github.io/slides/hpae/lect07.pdf) | |
+| 6 | La escuela neoclásica: La revolución marginalista | [lect08](https://sfreille.github.io/slides/hpae/lect08.html)| [lect08](https://sfreille.github.io/slides/hpae/lect08.pdf) | |
+| 7 | Las reacciones en el siglo XX: críticas al método y a los supuestos. | [lect09](https://sfreille.github.io/slides/hpae/lect09.html)| [lect09](https://sfreille.github.io/slides/hpae/lect09.pdf) | | |
 | 8 | El nacimiento de la macroeconomía: Keynes y la teoría general |  |
 | 9 | La renovación teórica desde el período interguerras | |
 | 10 |¿Nada nuevo bajo el sol? Nueva economía institucional, la nueva economía política y la revolución de la credibilidad. | |
