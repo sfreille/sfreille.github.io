@@ -42,8 +42,8 @@ El objetivo de la materia es el estudio y análisis de las interacciones entre l
 | # | Tema | Slides |
 |---|------|--------|
 | 0 | Introducción y presentación de la materia | [HTML](https://sfreille.github.io/slides/epol/lect00-24.html) [PDF](https://sfreille.github.io/slides/epol/lect00-24.pdf) |
-| 1 | Es la política, estúpido! Introducción a la economía política | [HTML](https://sfreille.github.io/slides/epol/lect01-24.html) [PDF](https://sfreille.github.io/slides/epol/lect01-24.pdf) |
-| 2 | En la vida hay que elegir. ¿Cómo eligen las sociedades? | [HTML](https://sfreille.github.io/slides/epol/lect02-24.html) [PDF](https://sfreille.github.io/slides/epol/lect02-24.pdf) |
+| 1 | Es la política, estúpido! Introducción a la economía política | [HTML](https://sfreille.github.io/slides/epol/lec-01-its-politics-stupid.html) [PDF](https://sfreille.github.io/slides/epol/lec-01-its-politics-stupid.pdf) |
+| 2 | En la vida hay que elegir. ¿Cómo eligen las sociedades? | [HTML](https://sfreille.github.io/slides/epol/lec-02-elecciones-colectivas.html) [PDF](https://sfreille.github.io/slides/epol/lec-02-elecciones-colectivas.pdf) |
 | 3 | La Democracia es el peor sistema de gobierno (con excepción de todas las demás) | [HTML](https://sfreille.github.io/slides/epol/lect03-24.html) [PDF](https://sfreille.github.io/slides/epol/lect03-24.pdf) |
 | 4 | No taxation without representation: Partidos, votantes y competencia electoral | [HTML](https://sfreille.github.io/slides/epol/lect04-24.html) [PDF](https://sfreille.github.io/slides/epol/lect04-24.pdf) |
 | 5 | Estos son mis principios. Si no le gu$tan, tengo otros: Influencia, dinero y grupos de interés | [HTML](https://sfreille.github.io/slides/epol/lect05-24.html) |
