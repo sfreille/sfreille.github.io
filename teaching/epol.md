@@ -16,7 +16,8 @@ El objetivo de la materia es el estudio y análisis de las interacciones entre l
 ## Cuerpo docente
 
 - **Prof. Adjunto:** FREILLE, Sebastián
-- **Adscriptos:** ALBARRACIN, Clara; BACHIGLIONE, Camila; BALBO, Stéfano; HOFMANN, Rafael; JAROSZEWSKI, Vladimir; LAROVERE, Sebastián; LUCERO, Tobías; NASELLI, Jonathan; PRANZONI, Gino; RUBIO, Mateo; SANFELICE, Edgar
+- **Adscriptos:** ALBARRACIN, Clara; BACHIGLIONE, Camila; PRANZONI, Gino; PLAZA,
+  Fausto; BIANCONI, Agostina; BAUDINO, Juan Ignacio; RODRIGUEZ, Ramiro
 
 ## Contenidos y programa
 

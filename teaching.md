@@ -11,16 +11,16 @@ permalink: /teaching
 ## Undergraduate Courses
 
 <ul class="course-list">
-<li><a href="/teaching/fpub" class="course-card">
-<h3>Finanzas Públicas</h3>
-<p>Universidad Nacional de Córdoba · Current</p>
-</a></li>
 <li><a href="/teaching/epol" class="course-card">
 <h3>Economía Política</h3>
 <p>Universidad Nacional de Córdoba · Current</p>
 </a></li>
 <li><a href="/teaching/hpae" class="course-card">
 <h3>Historia del Pensamiento y del Análisis Económico</h3>
+<p>Universidad Nacional de Córdoba · Current</p>
+</a></li>
+<li><a href="/teaching/hear" class="course-card">
+<h3>Historia Económica Argentina</h3>
 <p>Universidad Nacional de Córdoba · Current</p>
 </a></li>
 <li><a href="/teaching/cyfi" class="course-card">
@@ -31,14 +31,7 @@ permalink: /teaching
 <h3>Economía Política Internacional</h3>
 <p>Universidad Católica de Córdoba · Current</p>
 </a></li>
-<li><a href="/teaching/gpre" class="course-card">
-<h3>Taller III: Gestión Presupuestaria</h3>
-<p>Universidad Católica de Córdoba · Current</p>
-</a></li>
-<li><a href="/teaching/teaa" class="course-card">
-<h3>Tópicos en Economía Aplicada</h3>
-<p>Universidad Nacional de Córdoba</p>
-</a></li>
+
 </ul>
 
 ## Graduate Courses
@@ -61,3 +54,22 @@ permalink: /teaching
 <p>Universidad Nacional del Sur</p>
 </a></li>
 </ul>
+
+## Past Courses
+
+<ul class="course-list">
+<li><a href="/teaching/fpub" class="course-card">
+<h3>Finanzas Públicas</h3>
+<p>Universidad Nacional de Córdoba · Current</p>
+</a></li>
+<li><a href="/teaching/gpre" class="course-card">
+<h3>Taller III: Gestión Presupuestaria</h3>
+<p>Universidad Católica de Córdoba · Current</p>
+</a></li>
+<li><a href="/teaching/teaa" class="course-card">
+<h3>Tópicos en Economía Aplicada</h3>
+<p>Universidad Nacional de Córdoba</p>
+</a></li>
+</ul>
+
+
