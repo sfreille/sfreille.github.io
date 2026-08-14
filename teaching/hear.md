@@ -41,12 +41,14 @@ aplicadas y los resultados alcanzados.
 | # | Tema | HTML | PDF |
 |---|------|------|-----|
 | 0 | Presentación | [lec-00](https://sfreille.github.io/slides/hear/lec-00-presentacion.html)|  [lec-00](https://sfreille.github.io/slides/hear/lec-00-presentacion.pdf)
-| 1 | Contento antes de 1880 | [lec-00](https://sfreille.github.io/slides/hear/lec-00-context-before-1880.html)|  [lec-00](https://sfreille.github.io/slides/hear/lec-00-context-before-1880.pdf)
+| 1 | Contexto antes de 1880 | [lec-00](https://sfreille.github.io/slides/hear/lec-00-context-before-1880.html)|  [lec-00](https://sfreille.github.io/slides/hear/lec-00-context-before-1880.pdf)
 | 2 | Introducción y modelo agroexportador |  [lec-01](https://sfreille.github.io/slides/hear/lec-01-introduccion-y-modelo-agroexportador.html) | [lec-01](https://sfreille.github.io/slides/hear/lec-01-introduccion-y-modelo-agroexportador.pdf) |
 | 3 | Teoría del bien primario exportable |  [lec-02](https://sfreille.github.io/slides/hear/lec-02-teoria-del-bien-primario-exportable.html) | [lec-02](https://sfreille.github.io/slides/hear/lec-02-teoria-del-bien-primario-exportable.pdf) |
 | 4 | Crecimiento económico 1880-1914 |  [lec-03](https://sfreille.github.io/slides/hear/lec-03-crecimiento-economico-1880-1914.html) | [lec-03](https://sfreille.github.io/slides/hear/lec-03-crecimiento-economico-1880-1914.pdf) |
 | 5 | Dinero, banca y la crisis de 1890 |  [lec-04](https://sfreille.github.io/slides/hear/lec-04-dinero-banca-y-la-crisis-de-1890.html) | [lec-04](https://sfreille.github.io/slides/hear/lec-04-dinero-banca-y-la-crisis-de-1890.pdf) |
-| 6 | Caja de conversión y patrón oro |  [lec-05](https://sfreille.github.io/slides/hear/lec-05-caja-de-conversión-y-patron-oro.html) | [lec-05](https://sfreille.github.io/slides/hear/lec-05-caja-de-conversion-y-patron-oro.pdf) |
+| 6 | Caja de conversión y patrón oro |  [lec-05](https://sfreille.github.io/slides/hear/lec-05-caja-de-conversion-y-patron-oro.html) | [lec-05](https://sfreille.github.io/slides/hear/lec-05-caja-de-conversion-y-patron-oro.pdf) |
+| 7 | Primera guerra mundial y fin de la Belle Époque |  [lec-06](https://sfreille.github.io/slides/hear/lec-06-primera-guerra-mundial-y-fin-de-la-belle-epoque.html) | |
+| 8 | Los años veinte y los gobiernos radicales |  [lec-07](https://sfreille.github.io/slides/hear/lec-07-los-anios-veinte-y-los-gobiernos-radicales.html) | |
 
 
 ## Diapositivas complementarias

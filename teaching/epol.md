@@ -47,9 +47,9 @@ El objetivo de la materia es el estudio y análisis de las interacciones entre l
 | 2 | En la vida hay que elegir. ¿Cómo eligen las sociedades? | [HTML](https://sfreille.github.io/slides/epol/lec-02-elecciones-colectivas.html) [PDF](https://sfreille.github.io/slides/epol/lec-02-elecciones-colectivas.pdf) |
 | 3 | La Democracia es el peor sistema de gobierno (con excepción de todas las demás) | [HTML](https://sfreille.github.io/slides/epol/lect03-24.html) [PDF](https://sfreille.github.io/slides/epol/lect03-24.pdf) |
 | 4 | No taxation without representation: Partidos, votantes y competencia electoral | [HTML](https://sfreille.github.io/slides/epol/lect04-24.html) [PDF](https://sfreille.github.io/slides/epol/lect04-24.pdf) |
-| 5 | Estos son mis principios. Si no le gu$tan, tengo otros: Influencia, dinero y grupos de interés | [HTML](https://sfreille.github.io/slides/epol/lect05-24.html) |
+| 5 | Estos son mis principios. Si no le gu$tan, tengo otros: Influencia, dinero y grupos de interés | [HTML](https://sfreille.github.io/slides/epol/lect05-24.html) [PDF](https://sfreille.github.io/slides/epol/lect05-24.pdf) |
 | 6 | El que depositó dólares, recibirá dólares: Derechos de propiedad e instituciones | [HTML](https://sfreille.github.io/slides/epol/lect06-25.html) [PDF](https://sfreille.github.io/slides/epol/lect06-25.pdf) |
-| 7 | Hay que dejar de robar por dos años: Corrupción y desgobierno | [HTML](https://sfreille.github.io/slides/epol/lect07-add-24.html) [HTML2](https://sfreille.github.io/slides/epol/econ-exp.html) [PDF](https://sfreille.github.io/slides/epol/lect02corrup.pdf) |
+| 7 | Hay que dejar de robar por dos años: Corrupción y desgobierno | [HTML](https://sfreille.github.io/slides/epol/lect07-24.html) [HTML2](https://sfreille.github.io/slides/epol/lect07-add-24.html) [PDF](https://sfreille.github.io/slides/epol/lect07-24.pdf) |
 | 8 | I love the smell of napalm in the morning. Conflicto y violencia política | [HTML](https://sfreille.github.io/slides/epol/lect08-23.html) [PDF](https://sfreille.github.io/slides/epol/lect08-23.pdf) |
 | 9 | Bad informeishon: Información, medios y efectos políticos | [HTML](https://sfreille.github.io/slides/epol/lect09-24.html) [PDF](https://sfreille.github.io/slides/epol/lect09-24.pdf) |
 
