@@ -47,8 +47,8 @@ aplicadas y los resultados alcanzados.
 | 4 | Crecimiento económico 1880-1914 |  [lec-03](https://sfreille.github.io/slides/hear/lec-03-crecimiento-economico-1880-1914.html) | [lec-03](https://sfreille.github.io/slides/hear/lec-03-crecimiento-economico-1880-1914.pdf) |
 | 5 | Dinero, banca y la crisis de 1890 |  [lec-04](https://sfreille.github.io/slides/hear/lec-04-dinero-banca-y-la-crisis-de-1890.html) | [lec-04](https://sfreille.github.io/slides/hear/lec-04-dinero-banca-y-la-crisis-de-1890.pdf) |
 | 6 | Caja de conversión y patrón oro |  [lec-05](https://sfreille.github.io/slides/hear/lec-05-caja-de-conversion-y-patron-oro.html) | [lec-05](https://sfreille.github.io/slides/hear/lec-05-caja-de-conversion-y-patron-oro.pdf) |
-| 7 | Primera guerra mundial y fin de la Belle Époque |  [lec-06](https://sfreille.github.io/slides/hear/lec-06-primera-guerra-mundial-y-fin-de-la-belle-epoque.html) | |
-| 8 | Los años veinte y los gobiernos radicales |  [lec-07](https://sfreille.github.io/slides/hear/lec-07-los-anios-veinte-y-los-gobiernos-radicales.html) | |
+| 7 | Primera guerra mundial y fin de la Belle Époque |  [lec-06](https://sfreille.github.io/slides/hear/lec-06-primera-guerra-mundial-y-fin-de-la-belle-epoque.html) | [lec-06](https://sfreille.github.io/slides/hear/lec-06-primera-guerra-mundial-y-fin-de-la-belle-epoque.pdf) |
+| 8 | Los años veinte y los gobiernos radicales |  [lec-07](https://sfreille.github.io/slides/hear/lec-07-los-anios-veinte-y-los-gobiernos-radicales.html) | [lec-07](https://sfreille.github.io/slides/hear/lec-07-los-anios-veinte-y-los-gobiernos-radicales.pdf) |
 
 
 ## Diapositivas complementarias
