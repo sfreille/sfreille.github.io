@@ -58,7 +58,7 @@ aplicadas y los resultados alcanzados.
 | # | Tema | HTML | PDF |
 |---|------|------|-----|
 | 1 | El sistema monetario antes de la Caja de Conversion | [lec-01]()|  [lec-01](https://sfreille.github.io/slides/hear/1. Pre_Caja_de_Conversion.pdf)
-| 2 | La década infame: la crisis del 30, el pacto Roca-Runciman y la creacíon del Banco Central | [lec-02]()|  [lec-02](https://sfreille.github.io/slides/hear/2. Decada Infame.pdf)
+| 2 | La década infame: la crisis del 30, el pacto Roca-Runciman y la creacíon del Banco Central | [lec-02]()|  [lec-02](https://sfreille.github.io/slides/hear/2. Decada_Infame.pdf)
 | 3 | El primer peronismo: industrialización, distribución del ingreso y salarios | [lec-03]()|  [lec-03](https://sfreille.github.io/slides/hear/3. Primer_peronismo.pdf)
 
 ## Diapositivas complementarias
