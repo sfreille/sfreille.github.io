@@ -53,6 +53,14 @@ aplicadas y los resultados alcanzados.
 | 10 | La Gran Depresión y el giro intervencionista |  [lec-09](https://sfreille.github.io/slides/hear/lec-09-la-gran-depresion-y-el-giro-intervencionista.html) | [lec-09](https://sfreille.github.io/slides/hear/lec-09-la-gran-depresion-y-el-giro-intervencionista.pdf) |
 | 11 | Segunda guerra, industrialización y Plan Pinedo |  [lec-10](https://sfreille.github.io/slides/hear/lec-10-segunda-guerra-industrializacion-y-plan-pinedo.html) | [lec-10](https://sfreille.github.io/slides/hear/lec-10-segunda-guerra-industrializacion-y-plan-pinedo.pdf) |
 
+## Clases (FG)
+
+| # | Tema | HTML | PDF |
+|---|------|------|-----|
+| 1 | El sistema monetario antes de la Caja de Conversión | [lec-01]()|  [lec-01](https://sfreille.github.io/slides/hear/1. Pre_Caja_de_Conversión.pdf)
+| 2 | La década infame: la crisis del 30, el pacto Roca-Runciman y la creacíon del Banco Central | [lec-02]()|  [lec-02](https://sfreille.github.io/slides/hear/2. Década Infame.pdf)
+
+
 ## Diapositivas complementarias
 
 
