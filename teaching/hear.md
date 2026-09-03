@@ -39,7 +39,7 @@ aplicadas y los resultados alcanzados.
 ## Clases
 
 | # | Tema | HTML | PDF |
-|---|------|------|-----|
+|---|------|------:|-----:|
 | 0 | Presentación | [lec-00](https://sfreille.github.io/slides/hear/lec-00-presentacion.html)|  [lec-00](https://sfreille.github.io/slides/hear/lec-00-presentacion.pdf)
 | 1 | Contexto antes de 1880 | [lec-00](https://sfreille.github.io/slides/hear/lec-00-context-before-1880.html)|  [lec-00](https://sfreille.github.io/slides/hear/lec-00-context-before-1880.pdf)
 | 2 | Introducción y modelo agroexportador |  [lec-01](https://sfreille.github.io/slides/hear/lec-01-introduccion-y-modelo-agroexportador.html) | [lec-01](https://sfreille.github.io/slides/hear/lec-01-introduccion-y-modelo-agroexportador.pdf) |
@@ -61,7 +61,7 @@ aplicadas y los resultados alcanzados.
 ## Clases (FG)
 
 | # | Tema | HTML | PDF |
-|---|------|------|-----|
+|---|------|------:|-----:|
 | 1 | El sistema monetario antes de la Caja de Conversion | [lec-01]()|  [lec-01](https://sfreille.github.io/slides/hear/1. Pre_Caja_de_Conversion.pdf)
 | 2 | La década infame: Argentina y la crisis del 30 | [lec-02]()|  [lec-02](https://sfreille.github.io/slides/hear/2. Decada_Infame.pdf)
 | 3 | El primer peronismo: industrialización y distribución del ingreso | [lec-03]()|  [lec-03](https://sfreille.github.io/slides/hear/3. Primer_peronismo.pdf)
@@ -69,7 +69,7 @@ aplicadas y los resultados alcanzados.
 ## Material complementario
 
 | # | Tema | HTML | PDF |
-|---|------|------|-----|
+|---|------|------:|-----:|
 | - | Período inter-guerras: línea de tiempo visual | [app-01]()|  [app-01](https://sfreille.github.io/slides/hear/LINEA DE TIEMPO.pdf)
 | - | Período inter-guerras: cuadro hitos, eventos y efectos | [app-02]()|  [app-02](https://sfreille.github.io/slides/hear/Cuadro Macro 1914-1943.pdf)
 | - | Desde 1880 a Perón: línea de tiempo hitos políticos | [app-03]()|  [app-03](https://sfreille.github.io/slides/hear/Linea_de_tiempo_politica_1880-1947.pdf)
