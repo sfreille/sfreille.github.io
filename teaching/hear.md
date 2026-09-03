@@ -52,7 +52,11 @@ aplicadas y los resultados alcanzados.
 | 9 | Avatares del sistema monetario |  [lec-08](https://sfreille.github.io/slides/hear/lec-08-avatares-del-sistema-monetario.html) | [lec-08](https://sfreille.github.io/slides/hear/lec-08-avatares-del-sistema-monetario.pdf) |
 | 10 | La Gran Depresión y el giro intervencionista |  [lec-09](https://sfreille.github.io/slides/hear/lec-09-la-gran-depresion-y-el-giro-intervencionista.html) | [lec-09](https://sfreille.github.io/slides/hear/lec-09-la-gran-depresion-y-el-giro-intervencionista.pdf) |
 | 11 | Segunda guerra, industrialización y Plan Pinedo |  [lec-10](https://sfreille.github.io/slides/hear/lec-10-segunda-guerra-industrializacion-y-plan-pinedo.html) | [lec-10](https://sfreille.github.io/slides/hear/lec-10-segunda-guerra-industrializacion-y-plan-pinedo.pdf) |
-| 12 | Ascenso, política y economía del peronismo | [lec-11](https://sfreille.github.io/slides/hear/lec-10-segunda-guerra-industrializacion-y-plan-pinedo.html) | [lec-10](https://sfreille.github.io/slides/hear/lec-10-segunda-guerra-industrializacion-y-plan-pinedo.pdf) |
+| 12 | Ascenso, política y economía peronista: contexto, caracterización y visión general | [lec-11](https://sfreille.github.io/slides/hear/lec-11-peronismo-contexto-filosofia-y-trayectoria-macro.html) | [lec-11](https://sfreille.github.io/slides/hear/lec-11-peronismo-contexto-filosofia-y-trayectoria-macro.pdf) |
+| 13 | Primer peronismo: la bonanza de 1946-48 y algunas señales de preocupación | [lec-12](https://sfreille.github.io/slides/hear/lec-12-bonanza-1946-1948-y-reversion-1949-1950.html) | [lec-12](https://sfreille.github.io/slides/hear/lec-12-bonanza-1946-1948-y-reversion-1949-1950.pdf) |
+| 14 | Segundo peronismo: el plan de 19852 y evaluación | [lec-13](https://sfreille.github.io/slides/hear/lec-13-segundo-peronismo-plan-1952-y-evaluacion.html) | [lec-13](https://sfreille.github.io/slides/lec-13-segundo-peronismo-plan-1952-y-evaluacion.pdf) |
+
+
 
 ## Clases (FG)
 
