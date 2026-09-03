@@ -52,15 +52,20 @@ aplicadas y los resultados alcanzados.
 | 9 | Avatares del sistema monetario |  [lec-08](https://sfreille.github.io/slides/hear/lec-08-avatares-del-sistema-monetario.html) | [lec-08](https://sfreille.github.io/slides/hear/lec-08-avatares-del-sistema-monetario.pdf) |
 | 10 | La Gran Depresión y el giro intervencionista |  [lec-09](https://sfreille.github.io/slides/hear/lec-09-la-gran-depresion-y-el-giro-intervencionista.html) | [lec-09](https://sfreille.github.io/slides/hear/lec-09-la-gran-depresion-y-el-giro-intervencionista.pdf) |
 | 11 | Segunda guerra, industrialización y Plan Pinedo |  [lec-10](https://sfreille.github.io/slides/hear/lec-10-segunda-guerra-industrializacion-y-plan-pinedo.html) | [lec-10](https://sfreille.github.io/slides/hear/lec-10-segunda-guerra-industrializacion-y-plan-pinedo.pdf) |
+| 12 | Ascenso, política y economía del peronismo | [lec-11](https://sfreille.github.io/slides/hear/lec-10-segunda-guerra-industrializacion-y-plan-pinedo.html) | [lec-10](https://sfreille.github.io/slides/hear/lec-10-segunda-guerra-industrializacion-y-plan-pinedo.pdf) |
 
 ## Clases (FG)
 
 | # | Tema | HTML | PDF |
 |---|------|------|-----|
 | 1 | El sistema monetario antes de la Caja de Conversion | [lec-01]()|  [lec-01](https://sfreille.github.io/slides/hear/1. Pre_Caja_de_Conversion.pdf)
-| 2 | La década infame: la crisis del 30, el pacto Roca-Runciman y la creacíon del Banco Central | [lec-02]()|  [lec-02](https://sfreille.github.io/slides/hear/2. Decada_Infame.pdf)
+| 2 | La década infame: la crisis del 30, pacto Roca-Runciman y creación de BCRA | [lec-02]()|  [lec-02](https://sfreille.github.io/slides/hear/2. Decada_Infame.pdf)
 | 3 | El primer peronismo: industrialización, distribución del ingreso y salarios | [lec-03]()|  [lec-03](https://sfreille.github.io/slides/hear/3. Primer_peronismo.pdf)
 
-## Diapositivas complementarias
+## Material complementario
 
-
+| # | Tema | HTML | PDF |
+|---|------|------|-----|
+| - | Período inter-guerras: línea de tiempo visual | [app-01]()|  [app-01](https://sfreille.github.io/slides/hear/LINEA DE TIEMPO.pdf)
+| - | Período inter-guerras: cuadro hitos, eventos y efectos | [app-02]()|  [app-02](https://sfreille.github.io/slides/hear/Cuadro Macro 1914-1943.pdf)
+| - | Desde 1880 a Perón: línea de tiempo presidencias, partidos e hitos políticos | [app-03]()|  [app-03](https://sfreille.github.io/slides/hear/Linea_de_tiempo_politica_1880-1947.pdf)
