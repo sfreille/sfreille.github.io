@@ -54,8 +54,9 @@ aplicadas y los resultados alcanzados.
 | 11 | Segunda guerra, industrialización y Plan Pinedo |  [lec-10](https://sfreille.github.io/slides/hear/lec-10-segunda-guerra-industrializacion-y-plan-pinedo.html) | [lec-10](https://sfreille.github.io/slides/hear/lec-10-segunda-guerra-industrializacion-y-plan-pinedo.pdf) |
 | 12 | Ascenso, política y economía peronista: contexto, caracterización y visión general | [lec-11](https://sfreille.github.io/slides/hear/lec-11-peronismo-contexto-filosofia-y-trayectoria-macro.html) | [lec-11](https://sfreille.github.io/slides/hear/lec-11-peronismo-contexto-filosofia-y-trayectoria-macro.pdf) |
 | 13 | Primer peronismo: la bonanza de 1946-48 y algunas señales de preocupación | [lec-12](https://sfreille.github.io/slides/hear/lec-12-bonanza-1946-1948-y-reversion-1949-1950.html) | [lec-12](https://sfreille.github.io/slides/hear/lec-12-bonanza-1946-1948-y-reversion-1949-1950.pdf) |
-| 14 | Segundo peronismo: el plan de 19852 y evaluación | [lec-13](https://sfreille.github.io/slides/hear/lec-13-segundo-peronismo-plan-1952-y-evaluacion.html) | [lec-13](https://sfreille.github.io/slides/lec-13-segundo-peronismo-plan-1952-y-evaluacion.pdf) |
-
+| 14 | Segundo peronismo: el plan de 1952 y evaluación | [lec-13](https://sfreille.github.io/slides/hear/lec-13-segundo-peronismo-plan-1952-y-evaluacion.html) | [lec-13](https://sfreille.github.io/slides/lec-13-segundo-peronismo-plan-1952-y-evaluacion.pdf) |
+| 15 | Frondizi y el desarrollismo | [lec-14](https://sfreille.github.io/slides/hear/lec-14-frondizi-y-el-desarrollismo.html) | [lec-14](https://sfreille.github.io/slides/lec-14-frondizi-y-el-desarrollismo.pdf) |
+| 16 | Los programas de estabilización del FMI | [lec-15](https://sfreille.github.io/slides/hear/lec-15-los-programas-de-estabilizacion-del-fmi.html) | [lec-15](https://sfreille.github.io/slides/lec-15-los-programas-de-estabilizacion-del-fmi.pdf) |
 
 
 ## Clases (FG)
@@ -65,6 +66,7 @@ aplicadas y los resultados alcanzados.
 | 1 | El sistema monetario antes de la Caja de Conversion | [lec-01]()|  [lec-01](https://sfreille.github.io/slides/hear/1. Pre_Caja_de_Conversion.pdf)
 | 2 | La década infame: Argentina y la crisis del 30 | [lec-02]()|  [lec-02](https://sfreille.github.io/slides/hear/2. Decada_Infame.pdf)
 | 3 | El primer peronismo: industrialización y distribución del ingreso | [lec-03]()|  [lec-03](https://sfreille.github.io/slides/hear/3. Primer_peronismo.pdf)
+| 4 | Revolución Libertadora | [lec-04]()|  [lec-04](https://sfreille.github.io/slides/hear/4. Revolucion_Libertadora.pdf)
 
 ## Material complementario
 
