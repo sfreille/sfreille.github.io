@@ -1,0 +1,42 @@
+institucion,pais,region,duracion_anos,semestres,total_materias_est,materias_oblig_est,materias_elect_est,historia_oblig,sociologia_oblig,metodos_cualit_oblig,link_oficial
+Universidad Austral,Argentina,Argentina,5,10,40,34,6,TRUE,TRUE,FALSE,https://www.austral.edu.ar/carreras/licenciatura-en-economia/
+Universidad Catolica Argentina (UCA),Argentina,Argentina,5,10,40,34,6,TRUE,TRUE,FALSE,https://www.uca.edu.ar/
+Universidad Nacional de Cordoba (UNC),Argentina,Argentina,5,10,40,34,6,TRUE,TRUE,FALSE,https://www.econo.unc.edu.ar/
+Universidad Nacional de La Plata (UNLP),Argentina,Argentina,5,10,40,34,6,TRUE,TRUE,FALSE,https://www.econo.unlp.edu.ar/
+Universidad Torcuato Di Tella (UTDT),Argentina,Argentina,4,8,32,26,6,FALSE,FALSE,FALSE,https://www.utdt.edu/listado_noticias.php?id_item_menu=225
+Universidad de Buenos Aires (UBA),Argentina,Argentina,5,10,42,35,7,TRUE,TRUE,FALSE,https://www.economicas.uba.ar/carreras-de-grado/economia/
+Universidad de San Andres (UdeSA),Argentina,Argentina,4,8,34,28,6,TRUE,TRUE,FALSE,https://www.udesa.edu.ar/carreras/economia
+Universidad del CEMA (UCEMA),Argentina,Argentina,4,8,34,28,6,TRUE,FALSE,FALSE,https://www.ucema.edu.ar/carreras-de-grado/licenciatura-en-economia
+Columbia University,EEUU,EEUU,4,8,9,5,4,FALSE,FALSE,FALSE,https://econ.columbia.edu/undergraduate/
+Harvard University,EEUU,EEUU,4,8,12,7,5,TRUE,FALSE,FALSE,https://economics.harvard.edu/undergraduate
+MIT,EEUU,EEUU,4,8,11,7,4,FALSE,FALSE,FALSE,https://economics.mit.edu/academics/undergraduate-program
+Northwestern University,EEUU,EEUU,4,8,12,6,6,FALSE,FALSE,FALSE,https://economics.northwestern.edu/undergraduate/
+Princeton University,EEUU,EEUU,4,8,11,6,5,FALSE,FALSE,FALSE,https://economics.princeton.edu/undergraduate-program/
+Stanford University,EEUU,EEUU,4,12,16,11,5,FALSE,FALSE,FALSE,https://economics.stanford.edu/academics/undergraduate-program
+UC Berkeley,EEUU,EEUU,4,8,16,11,5,FALSE,FALSE,FALSE,https://www.econ.berkeley.edu/undergrad
+University of Chicago,EEUU,EEUU,4,8,9,5,4,FALSE,FALSE,FALSE,https://economics.uchicago.edu/undergraduate
+University of Pennsylvania,EEUU,EEUU,4,8,12,6,6,FALSE,FALSE,FALSE,https://economics.sas.upenn.edu/
+Yale University,EEUU,EEUU,4,8,12,7,5,FALSE,FALSE,FALSE,https://economics.yale.edu/undergraduate
+Universitat Bonn,Alemania,Europa,3,6,24,20,4,TRUE,FALSE,FALSE,https://www.econ.uni-bonn.de/en/study-programs/bachelor
+University of Mannheim,Alemania,Europa,3,6,24,20,4,TRUE,FALSE,FALSE,https://www.vwl.uni-mannheim.de/en/study/undergraduate/bsc-economics/
+Universidad Carlos III de Madrid (UC3M),Espana,Europa,4,8,40,34,6,TRUE,TRUE,FALSE,https://www.uc3m.es/grado/economia
+Universitat Pompeu Fabra (UPF),Espana,Europa,4,8,40,34,6,TRUE,TRUE,FALSE,https://www.upf.edu/web/econ/studies
+Sciences Po Paris,Francia,Europa,3,6,20,16,4,TRUE,TRUE,TRUE,https://www.sciencespo.fr/college/en/academics/undergraduate-curriculum.html
+Toulouse School of Economics (TSE),Francia,Europa,3,6,24,20,4,TRUE,FALSE,FALSE,https://www.tse-fr.eu/licence-economie
+Bocconi University,Italia,Europa,3,6,24,20,4,TRUE,TRUE,FALSE,https://www.unibocconi.eu/wps/wcm/connect/Bocconi/SitoPubblico_EN/Navigation+Tree/Home/programs/undergraduate/BSc+ECONOMICS+AND+SOCIAL+SCIENCES/
+Tilburg University,Paises Bajos,Europa,3,6,24,20,4,TRUE,FALSE,FALSE,https://www.tilburguniversity.edu/education/bachelors-programs/economics
+Universiteit van Amsterdam (UvA),Paises Bajos,Europa,3,6,24,20,4,TRUE,FALSE,FALSE,https://www.uva.nl/en/programmes/bachelors/economics/economics.html
+London School of Economics (LSE),Reino Unido,Europa,3,6,12,9,3,FALSE,FALSE,FALSE,https://www.lse.ac.uk/study-at-lse/undergraduate/bsc-economics
+University College London (UCL),Reino Unido,Europa,3,6,12,9,3,FALSE,FALSE,FALSE,https://www.ucl.ac.uk/economics/study/undergraduate/bsc-economics
+University of Cambridge,Reino Unido,Europa,3,6,10,7,3,TRUE,TRUE,FALSE,https://www.undergraduate.study.cam.ac.uk/courses/economics
+University of Oxford,Reino Unido,Europa,3,6,10,7,3,FALSE,FALSE,FALSE,https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/economics-and-management
+Stockholm School of Economics (SSE),Suecia,Europa,3,6,24,20,4,TRUE,FALSE,FALSE,https://www.hhs.se/en/education/bachelor/
+FGV (Fundacao Getulio Vargas),Brasil,Latinoamerica,4,8,35,29,6,TRUE,FALSE,FALSE,https://eesp.fgv.br/
+USP (Universidade de Sao Paulo),Brasil,Latinoamerica,4,8,35,29,6,TRUE,TRUE,FALSE,https://www.fea.usp.br/
+PUC-Chile (Pontificia Universidad Catolica de Chile),Chile,Latinoamerica,5,10,50,42,8,TRUE,FALSE,FALSE,https://economia.uc.cl/
+Universidad de Chile,Chile,Latinoamerica,5,10,50,42,8,TRUE,TRUE,FALSE,https://fce.uchile.cl/
+Universidad de los Andes (Colombia),Colombia,Latinoamerica,4,8,35,29,6,TRUE,FALSE,FALSE,https://uniandes.edu.co/programas/economia
+ITAM (Instituto Tecnologico Autonomo de Mexico),Mexico,Latinoamerica,4,8,36,30,6,TRUE,FALSE,FALSE,https://www.itam.mx/es/licenciatura-economia
+UNAM (Universidad Nacional Autonoma de Mexico),Mexico,Latinoamerica,5,10,50,42,8,TRUE,TRUE,FALSE,https://www.economia.unam.mx/
+UDEP (Universidad de Piura),Peru,Latinoamerica,5,10,40,34,6,TRUE,TRUE,FALSE,https://udep.edu.pe/
+Udelar (Universidad de la Republica),Uruguay,Latinoamerica,5,10,45,38,7,TRUE,TRUE,FALSE,https://www.fcecon.universidad.edu.uy/
