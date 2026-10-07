@@ -54,7 +54,7 @@ permalink: /research
 
 <ul class="publications-list">
 <li>
-<div class="pub-title"><a href="https://sfreille.github.io/slides/conferences/cssocialesfce/valores-juicios-etica.html">Valores, juicios y ética en la economía</a></div>
+<div class="pub-title"><a href="https://sfreille.github.io/conferences/cssocialesfce/valores-juicios-etica.html">Valores, juicios y ética en la economía</a></div>
 <div class="pub-venue">Panel +Economías, Introducción a las Ciencias Sociales, FCE-UNC</div>
 </li>
 <li>
