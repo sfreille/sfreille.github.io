@@ -54,6 +54,10 @@ permalink: /research
 
 <ul class="publications-list">
 <li>
+<div class="pub-title"><a href="https://sfreille.github.io/slides/conferences/cssocialesfce/valores-juicios-etica.html">Valores, juicios y ética en la economía</a></div>
+<div class="pub-venue">Panel +Economías, Introducción a las Ciencias Sociales, FCE-UNC</div>
+</li>
+<li>
 <div class="pub-title"><a href="https://sfreille.github.io/slides/conferences/uca2026/seminar-uca.html">Measuring the Ideology-Policy Gap: Empirical Evidence from Argentina's 2023 Election</a></div>
 <div class="pub-venue">UCA Seminar, May 2026</div>
 </li>
