@@ -18,6 +18,10 @@ x_id: sebafreille
 markdown: kramdown
 highlighter: rouge
 
+# Include directories that may be skipped by Jekyll defaults
+include:
+  - slides
+
 # Exclude from processing
 
 exclude:
