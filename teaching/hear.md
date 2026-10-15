@@ -57,6 +57,9 @@ aplicadas y los resultados alcanzados.
 | 14 | Segundo peronismo: el plan de 1952 y evaluación | [lec-13](https://sfreille.github.io/slides/hear/lec-13-segundo-peronismo-plan-1952-y-evaluacion.html) | [lec-13](https://sfreille.github.io/slides/lec-13-segundo-peronismo-plan-1952-y-evaluacion.pdf) |
 | 15 | Frondizi y el desarrollismo | [lec-14](https://sfreille.github.io/slides/hear/lec-14-frondizi-y-el-desarrollismo.html) | [lec-14](https://sfreille.github.io/slides/lec-14-frondizi-y-el-desarrollismo.pdf) |
 | 16 | Los programas de estabilización del FMI | [lec-15](https://sfreille.github.io/slides/hear/lec-15-los-programas-de-estabilizacion-del-fmi.html) | [lec-15](https://sfreille.github.io/slides/lec-15-los-programas-de-estabilizacion-del-fmi.pdf) |
+| 17 | La década de expansión: Guido, la crisis y el gobierno de Illia | [lec-16](https://sfreille.github.io/slides/hear/lec-16-la-decada-de-expansion-guido-e-illia.html) | [lec-16](https://sfreille.github.io/slides/lec-16-la-decada-de-expansion-guido-e-illia.pdf) |
+| 18 | La revolución argentina: Onganía y Krieger Vasena | [lec-17](https://sfreille.github.io/slides/hear/lec-17-la-revolucion-argentina-y-krieger-vasena.html) | [lec-17](https://sfreille.github.io/slides/lec-17-la-revolucion-argentina-y-krieger-vasena.pdf) |
+| 19 | El Proceso: reformas, tablita y deuda | [lec-18](https://sfreille.github.io/slides/hear/lec-18-el-proceso-reformas-tablita-y-deuda.html) | [lec-18](https://sfreille.github.io/slides/lec-18-el-proceso-reformas-tablita-y-deuda.pdf) |
 
 
 ## Clases (FG)
@@ -67,6 +70,8 @@ aplicadas y los resultados alcanzados.
 | 2 | La década infame: Argentina y la crisis del 30 | [lec-02]()|  [lec-02](https://sfreille.github.io/slides/hear/2. Decada_Infame.pdf)
 | 3 | El primer peronismo: industrialización y distribución del ingreso | [lec-03]()|  [lec-03](https://sfreille.github.io/slides/hear/3. Primer_peronismo.pdf)
 | 4 | Revolución Libertadora | [lec-04]()|  [lec-04](https://sfreille.github.io/slides/hear/4. Revolucion_Libertadora.pdf)
+| 5 | Retorno del peronismo | [lec-05]()|  [lec-05](https://sfreille.github.io/slides/hear/Retorno_del_peronismo.pdf)
+
 
 ## Material complementario
 
@@ -75,3 +80,5 @@ aplicadas y los resultados alcanzados.
 | - | Período inter-guerras: línea de tiempo visual | [app-01]()|  [app-01](https://sfreille.github.io/slides/hear/LINEA DE TIEMPO.pdf)
 | - | Período inter-guerras: cuadro hitos, eventos y efectos | [app-02]()|  [app-02](https://sfreille.github.io/slides/hear/Cuadro Macro 1914-1943.pdf)
 | - | Desde 1880 a Perón: línea de tiempo hitos políticos | [app-03]()|  [app-03](https://sfreille.github.io/slides/hear/Linea_de_tiempo_politica_1880-1947.pdf)
+| - | Desde Revolución Libertadora a Menem: línea de tiempo hitos políticos | [app-04]()|  [app-04](https://sfreille.github.io/slides/hear/lineas-tiempo-politicas.pdf)
+| - | Guia planes de estabilización | [app-05]()|  [app-05](https://sfreille.github.io/slides/hear/guia-planes-estabilizacion.pdf)
